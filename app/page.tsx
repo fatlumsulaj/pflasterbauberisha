@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import Hero from "@/containers/Hero";
+import About from "@/containers/About";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-<h1>Hellooooo</h1>
+    <main>
+      <Hero />
+      <About />
     </main>
-  )
+  );
 }
