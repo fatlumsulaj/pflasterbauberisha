@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.background1 {
+  background-image: url("/pflasterbau-hintergrund.png");
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+  .max-container {
+    @apply mx-auto max-w-[1440px]
+  }
+  
+  .padding-container {
+    @apply px-[12px] lg:px-[20px]
+  }
+
+  .heading1 {
+    @apply text-[32px] lg:text-[45px];
+    font-weight: 700;
+  }
+.heading2 {
+  @apply text-[23px] lg:text-[35px];
+  font-weight: 600;
+}
+.heading3 {
+  @apply text-[22px] lg:text-[25px];
+  font-weight: 600;
+}
+
+.heading4 {
+  @apply text-[21px] lg:text-[24px];
+  font-weight: 600;
+}
+  .paragraph {
+    @apply text-[17px] lg:text-[19px]
+  }
+
+  .paragraph-sm {
+    @apply text-[16px] lg:text-[18px]
+  }
+
+  .text-color {
+    color: #ffce3e;
+  }
+
+.background-color1 {
+  background-color: #fee856;
+}
+
+.background-color2 {
+  background-color: #ffce3e;
+}
+  

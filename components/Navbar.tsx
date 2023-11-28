@@ -6,12 +6,12 @@ import { AlignJustify, X } from 'lucide-react'
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from './ui/dropdown-menu'
 import { Button } from './ui/button'
 import { AnimatePresence, motion } from 'framer-motion'
-
+import { nunito } from '@/app/ui/fonts'
 export default function Navbar() {
   const [mobile, setMobile] = useState<boolean>(false)
 
   return (
-    <nav className='fixed top-0 bg-slate-800 h-[70px] w-full px-6 text-white'>
+    <nav className={`fixed top-0 bg-[#1a1a1a] h-[70px] w-full px-6 text-white ${nunito.className}`}>
       <div className="h-full flex justify-between items-center w-full max-w-screen-xl mx-auto">
         <h2 className='font-semibold text-md lg:text-2xl'>
           <Link href="/df" className='flex flex-row flex-wrap justify-center gap-2 items-center'>
@@ -30,7 +30,7 @@ export default function Navbar() {
           <Link href="/">Referenzen</Link>
           </li>
           <li>
-            <Button id="contact" className='bg-blue-600 hover:bg-blue-600/80'>
+            <Button id="contact" className='bg-[#fee856] hover:bg-[#ffce3e] text-black font-bold'>
               <Link href="/">
                 Kontakt
               </Link>
@@ -52,7 +52,7 @@ function Mobile({ isOpened, close }: { isOpened: boolean, close: () => void }) {
     <AnimatePresence>
       {isOpened && (
         <motion.div
-          className='h-screen w-full flex flex-col justify-center top-0 fixed left-0 bg-slate-800 p-6'
+          className='h-screen w-full flex flex-col justify-center top-0 fixed left-0 bg-[#1a1a1a] p-6'
           initial={{ x: '-100vw ' }}
           animate={{ x: 0, transition: { type: 'just' } }}
           exit={{ x: '-100vw', transition: { type: "just" } }}>
@@ -79,7 +79,7 @@ function Mobile({ isOpened, close }: { isOpened: boolean, close: () => void }) {
             <Link href="/">Referenzen</Link>
             </li>
             <li>
-              <Button id="contact" className='bg-blue-600 hover:bg-blue-600/80'>
+              <Button id="contact" className='bg-[#fee856] hover:bg-[#ffce3e] text-black font-bold'>
                 <Link href="/">
                   Kontakt
                 </Link>

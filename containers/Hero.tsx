@@ -1,35 +1,27 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-
+import Link from "next/link";
+import { nunito } from "@/app/ui/fonts";
 const Hero = () => {
-  const [current, setCurrent] = useState(1);
-
-  const nextBtn = () => {
-    setCurrent((prevCurrent) => (prevCurrent % 3) + 1);
-  };
-
-  const prevBtn = () => {
-    setCurrent((prevCurrent) => (prevCurrent - 2 + 3) % 3 + 1);
-  };
-
   return (
-    <section className="mt-[70px]">
-      <h1>Hello</h1>
-      <button onClick={nextBtn}>Next</button>
-      <button onClick={prevBtn}>Prev</button>
-
-      {current === 1 && (
-        <Image src="/pflasterbau1.jpg" alt="pflasterbau" width={1000} height={400} />
-      )}
-
-      {current === 2 && (
-        <Image src="/pflasterbau2.jpg" alt="pflasterbau" width={1000} height={400} />
-      )}
-
-      {current === 3 && (
-        <Image src="/pflasterbau3.jpg" alt="pflasterbau" width={1000} height={400} />
-      )}
+    <section
+      className={`mt-[70px] background1 bg-black h-[600px] md:h-[700px] flex justify-center items-center text-center padding-container ${nunito.className} pb-[100px]`}
+    >
+      <img src="/line-left.png" alt="line" />
+      <div className="">
+        <p className="paragraph uppercase text-white">WE BUILD YOUR DREAMS</p>
+        <h1 className="heading1 text-white">BS Pflasterbau Meisterbetrieb</h1>
+        <p className="max-w-[600px] text-white paragraph-sm mb-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          provident, delectus adipisci accusantium, distinctio, rem alias dicta
+          nam dolor nobis earum.
+        </p>
+        <Link href="/" className="uppercase text-[19px] text-color font-semibold">
+          Mehr Lesen
+        </Link>
+      </div>
+      <img src="/line-right.png" alt="line" />
     </section>
   );
 };
