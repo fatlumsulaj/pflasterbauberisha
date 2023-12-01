@@ -8,7 +8,7 @@ const Results = () => {
     >
       <div className="flex flex-col justify-center text-center items-center background-color2 px-10 py-6 md:py-12 w-[450px] lg:w-1/3 rounded-tl-2xl rounded-tr-2xl lg:rounded-tr-none rounded-bl-none lg:rounded-bl-2xl">
         <div className="flex flex-row items-center justify-center text-center gap-2">
-          <LandPlot width={35} height={35} />
+          <LandPlot width={30} height={30} />
           <p className="text-[28px] md:text-[35px] font-bold">1000+</p>
         </div>
         <p className="text-[20px] md:text-[25px] font-semibold">
@@ -21,7 +21,7 @@ const Results = () => {
 
       <div className="flex flex-col justify-center text-center items-center background-color1 px-10 py-6 md:py-12 w-[450px] lg:w-1/3">
         <div className="flex flex-row items-center justify-center text-center gap-2">
-          <Clock width={35} height={35} />
+          <Clock width={30} height={30} />
           <p className="text-[28px] md:text-[35px] font-bold">20+</p>
         </div>
         <p className="text-[20px] md:text-[25px] font-semibold">
@@ -34,7 +34,7 @@ const Results = () => {
 
       <div className="flex flex-col justify-center text-center items-center background-color2 px-10 py-6 md:py-12 w-[450px] lg:w-1/3 rounded-tr-none lg:rounded-tr-2xl rounded-br-2xl rounded-bl-2xl lg:rounded-bl-none">
         <div className="flex flex-row items-center justify-center text-center gap-2">
-          <Briefcase width={35} height={35} />
+          <Briefcase width={30} height={30} />
           <p className="text-[28px] md:text-[35px] font-bold">3</p>
         </div>
         <p className="text-[20px] md:text-[25px] font-semibold">

@@ -14,9 +14,9 @@ export default function Navbar() {
     <nav className={`fixed top-0 bg-[#1a1a1a] h-[70px] w-full px-6 text-white ${nunito.className}`}>
       <div className="h-full flex justify-between items-center w-full max-w-screen-xl mx-auto">
         <h2 className='font-semibold text-md lg:text-2xl'>
-          <Link href="/df" className='flex flex-row flex-wrap justify-center gap-2 items-center'>
+          <Link href="/" className='flex flex-row flex-wrap justify-center gap-2 items-center'>
+          <Image src="/pflasterbau-berisha-sm.png" alt='src' width={75} height={75}/>
             <h2 className='hidden md:block'>Pflasterbau Meisterbetrieb</h2>
-            <Image src="/pflasterbau-berisha-sm.png" alt='src' width={75} height={75}/>
           </Link>
         </h2>
         <ul className='hidden md:flex gap-6 items-center'>
@@ -61,8 +61,9 @@ function Mobile({ isOpened, close }: { isOpened: boolean, close: () => void }) {
           </button>
           <h2 className='font-bold text-md lg:text-2xl'>
           <Link href="/df" className='flex flex-col gap-4 flex-wrap justify-center items-center'>
+          <h2>Pflasterbau Meisterbetrieb</h2>
           <Image src="/pflasterbau-berisha-sm.png" alt='src' width={85} height={85}/>
-            <h2>Pflasterbau Meisterbetrieb</h2>
+
           </Link>
         </h2>
           <ul className='flex flex-col justify-center mt-8 gap-6 items-center'>

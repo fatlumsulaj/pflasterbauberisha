@@ -17,7 +17,7 @@ const Hero = () => {
           provident, delectus adipisci accusantium, distinctio, rem alias dicta
           nam dolor nobis earum.
         </p>
-        <Link href="/" className="uppercase text-[19px] text-color font-semibold">
+        <Link href="/" className="uppercase text-[18px] text-color font-semibold">
           Mehr Lesen
         </Link>
       </div>
