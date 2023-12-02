@@ -35,7 +35,7 @@ const About = () => {
           
         </div>
         <Image
-          src="/pflasterbauberisha.png"
+          src="/pflasterbau3.png"
           width={400}
           height={400}
           alt="Pflasterbau Berisha"
