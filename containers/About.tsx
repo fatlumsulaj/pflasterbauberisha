@@ -10,7 +10,7 @@ import {
   ArrowUpNarrowWide,
 } from "lucide-react";
 const Line = () => {
-  return <hr className="w-[100px] h-[4px] my-4 bg-[#fee856]" />;
+  return <hr className="w-[80px] h-[4px] my-4 bg-[#fee856]" />;
 };
 
 const About = () => {
@@ -44,7 +44,7 @@ const About = () => {
       <div className="flex flex-row-reverse justify-center flex-wrap items-center mt-14 md:mt-28 gap-x-28 gap-y-10">
         <div className="text-left">
           <h2 className="heading2">Warum Sie uns wählen sollten</h2>
-          <hr className="w-[100px] h-[4px] my-4 bg-[#fee856]" />
+          <hr className="w-[80px] h-[4px] my-4 bg-[#fee856]" />
           <p className="max-w-[500px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque earum iusto tenetur modi. Rem aspernatur provident magni unde reprehenderit? Laudantium nesciunt explicabo corporis vero dolorem ab fuga corrupti aliquid? Rem aspernatur provident magni unde reprehenderit? Laudantium nesciunt explicabo corporis vero dolorem ab fuga corrupti aliquid?</p>
         </div>
         <div className="flex flex-row flex-wrap max-w-[430px] justify-center gap-6">
