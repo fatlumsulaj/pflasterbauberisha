@@ -48,27 +48,27 @@ const About = () => {
           <p className="max-w-[500px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque earum iusto tenetur modi. Rem aspernatur provident magni unde reprehenderit? Laudantium nesciunt explicabo corporis vero dolorem ab fuga corrupti aliquid? Rem aspernatur provident magni unde reprehenderit? Laudantium nesciunt explicabo corporis vero dolorem ab fuga corrupti aliquid?</p>
         </div>
         <div className="flex flex-row flex-wrap max-w-[430px] justify-center gap-6">
-          <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-300 p-6 shadow-md">
+          <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
             <Timer width={30} height={30} color="#ffce3e"/>
             <p className="paragraph font-semibold">Erfahrung</p>
           </div>
-          <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-300 p-6 shadow-md">
+          <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
             <BadgeCheck width={30} height={30} color="#ffce3e"/>
             <p className="paragraph font-semibold">Qualität</p>
           </div>
-          <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-300 p-6 shadow-md">
+          <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
             <Cog width={30} height={30} color="#ffce3e"/>
             <p className="paragraph font-semibold">Zuverlässigkeit</p>
           </div>
-          <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-300 p-6 shadow-md">
+          <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
             <Wand2 width={30} height={30} color="#ffce3e"/>
             <p className="paragraph font-semibold">Kreativität</p>
           </div>
-          <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-300 p-6 shadow-md">
+          <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
             <Headphones width={30} height={30} color="#ffce3e"/>
             <p className="paragraph font-semibold">Kundenservice</p>
           </div>
-          <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-300 p-6 shadow-md">
+          <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
             <ArrowUpNarrowWide width={30} height={30} color="#ffce3e"/>
             <p className="paragraph font-semibold">Effizienz</p>
           </div>
