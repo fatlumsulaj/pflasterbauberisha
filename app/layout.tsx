@@ -1,9 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-const inter = Inter({ subsets: ['latin'] })
+
+import { Inter } from 'next/font/google'
+import { Manrope } from 'next/font/google'
+
+const default_font = Manrope({ subsets: ['latin'], weight: ['200', '300', '400', '500', '600', '700', '800',] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -17,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-    <body>
+    <body className={default_font.className}>
       <Navbar />
       {children}
       <Footer />

@@ -17,6 +17,12 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        "mikado": "#ffc300",
+        "sunglow": "#ffce3e",
+        "main1": "#fee856",
+        "main2": "#ffce3e;"
+      },
       keyframes: {
         "accordion-down": {
           from: { height: 0 },

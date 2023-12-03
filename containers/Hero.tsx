@@ -1,14 +1,14 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
-import { nunito } from "@/app/ui/fonts";
+import { Button } from "@/components/ui/button";
+
 const Hero = () => {
   return (
     <section
-      className={`mt-[70px] background1 bg-black h-[600px] md:h-[700px] flex justify-center items-center text-center padding-container ${nunito.className} pb-[100px]`}
+      className={`mt-[70px] background1 bg-black h-[600px] md:h-[700px] flex justify-center items-center text-center padding-container pb-[100px]`}
     >
-      <img src="/line-left.png" alt="line" />
+      <img className="hidden md:block" src="/line-left.png" alt="line" />
       <div className="">
         <p className="paragraph uppercase text-white">WE BUILD YOUR DREAMS</p>
         <h1 className="heading1 text-white">BS Pflasterbau Meisterbetrieb</h1>
@@ -17,11 +17,21 @@ const Hero = () => {
           provident, delectus adipisci accusantium, distinctio, rem alias dicta
           nam dolor nobis earum.
         </p>
-        <Link href="/" className="uppercase text-[18px] text-color font-semibold">
-          Mehr Lesen
-        </Link>
+        <div className="flex justify-center gap-2">
+          <Button variant="outline" className="bg-transparent text-white rounded-sm hover:bg-white/10 hover:text-white" size="lg">
+            <Link href="/">
+              Mehr Lesen
+            </Link>
+          </Button>
+          <Button size="lg" className="bg-main2 text-black font-medium rounded-sm hover:bg-main1">
+            <Link href="/">
+              Get in touch
+            </Link>
+          </Button>
+        </div>
+
       </div>
-      <img src="/line-right.png" alt="line" />
+      <img className="hidden md:block" src="/line-right.png" alt="line" />
     </section>
   );
 };

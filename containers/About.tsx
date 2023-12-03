@@ -16,7 +16,7 @@ const Line = () => {
 const About = () => {
   return (
     <section
-      className={`max-container padding-container my-14 md:my-20 ${nunito.className}`}
+      className={`max-container padding-container my-14 md:my-20`}
     >
       <div className="flex flex-row flex-wrap justify-center items-center gap-x-28 gap-y-10">
         <div className="max-w-[500px]">
