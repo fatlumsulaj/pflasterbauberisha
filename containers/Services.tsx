@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 
 const Services = () => {
   return (
-    <section className='bg-neutral-100 py-16 px-6 md:px-8'>
+    <section className='bg-neutral-100 pt-16 pb-20 md:pb-24 lg:pb-28 px-6 md:px-8'>
       <div className="max-w-screen-small mx-auto">
         <h4 className='flex gap-1 uppercase text-[15px] font-semibold justify-center items-center'><HardHat size={18} /> What we do</h4>
         <h2 className="title text-center mt-2">Our Services</h2>
