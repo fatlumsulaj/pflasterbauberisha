@@ -88,7 +88,7 @@ function Project({ title, images, material, investor, description }: Project) {
   }
 
   return (
-    <div className='border border-solid rounded-md py-4'>
+    <div className='border border-solid rounded-md py-4 shadow-md'>
       <h3 className='font-bold md:text-lg lg:text-xl px-4'>{title}</h3>
       <img className='mt-2 rounded-sm h-[200px] w-full object-cover' src={images[0]} alt={title} />
       <p className='mt-4 px-4 text-[15px] md:text-base'>{material}</p>

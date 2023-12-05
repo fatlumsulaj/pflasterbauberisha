@@ -20,7 +20,7 @@ const About = () => {
       className={`max-container padding-container my-14 md:my-20`}
     >
       <div className="flex flex-row flex-wrap justify-center items-center gap-x-28 gap-y-10">
-        <div className="max-w-[500px]">
+        <div className="max-w-[800px] xl:max-w-[500px]">
           <h2 className="heading2">Wer wir sind</h2>
           <Line />
           <p>
@@ -44,10 +44,10 @@ const About = () => {
         />
       </div>
       <div className="flex flex-row-reverse justify-center flex-wrap items-center mt-14 md:mt-28 gap-x-28 gap-y-10">
-        <div className="text-left">
+        <div className="text-left max-w-[800px] w-full xl:max-w-none xl:w-auto">
           <h2 className="heading2">Warum Sie uns wählen sollten</h2>
           <hr className="w-[80px] h-[4px] my-4 bg-[#fee856]" />
-          <p className="max-w-[500px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque earum iusto tenetur modi. Rem aspernatur provident magni unde reprehenderit? Laudantium nesciunt explicabo corporis vero dolorem ab fuga corrupti aliquid? Rem aspernatur provident magni unde reprehenderit? Laudantium nesciunt explicabo corporis vero dolorem ab fuga corrupti aliquid?</p>
+          <p className="xl:max-w-[500px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque earum iusto tenetur modi. Rem aspernatur provident magni unde reprehenderit? Laudantium nesciunt explicabo corporis vero dolorem ab fuga corrupti aliquid? Rem aspernatur provident magni unde reprehenderit? Laudantium nesciunt explicabo corporis vero dolorem ab fuga corrupti aliquid?</p>
         </div>
         <div className="flex flex-row flex-wrap max-w-[430px] justify-center gap-6">
           <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
