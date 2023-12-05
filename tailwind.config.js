@@ -17,6 +17,10 @@ module.exports = {
       },
     },
     extend: {
+      screens: {
+        'big': "1400px",
+        'small': "1200px"
+      },
       colors: {
         "mikado": "#ffc300",
         "sunglow": "#ffce3e",

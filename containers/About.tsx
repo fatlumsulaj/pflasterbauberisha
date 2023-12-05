@@ -9,6 +9,7 @@ import {
   Headphones,
   ArrowUpNarrowWide,
 } from "lucide-react";
+import { Button } from "@/components/ui/button";
 const Line = () => {
   return <hr className="w-[80px] h-[4px] my-4 bg-[#fee856]" />;
 };
@@ -22,17 +23,18 @@ const About = () => {
         <div className="max-w-[500px]">
           <h2 className="heading2">Wer wir sind</h2>
           <Line />
-          <p className="paragraph-sm">
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
             impedit, ea incidunt blanditiis excepturi atque illum amet quam
             necessitatibus molestiae voluptatem harum suscipit libero,
-            repellendus temporibus nisi veniam eveniet tempora. Lorem ipsum
+            repellendus temporibus nisi veniam eveniet tempora.
+          </p>
+          <p className="my-3">Lorem ipsum
             dolor sit amet consectetur adipisicing elit. Ipsam quibusdam officia
             beatae atque possimus distinctio mollitia quas reprehenderit nisi
             ratione, veritatis ipsa velit provident, maxime architecto? Impedit
-            non temporibus laboriosam.
-          </p>
-          
+            non temporibus laboriosam.</p>
+          <Button variant="outline" className="mt-2">Mehr anzeigen</Button>
         </div>
         <Image
           src="/pflasterbau3.png"
@@ -49,27 +51,27 @@ const About = () => {
         </div>
         <div className="flex flex-row flex-wrap max-w-[430px] justify-center gap-6">
           <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
-            <Timer width={30} height={30} color="#ffce3e"/>
+            <Timer width={30} height={30} color="#ffce3e" />
             <p className="paragraph font-semibold">Erfahrung</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
-            <BadgeCheck width={30} height={30} color="#ffce3e"/>
+            <BadgeCheck width={30} height={30} color="#ffce3e" />
             <p className="paragraph font-semibold">Qualität</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
-            <Cog width={30} height={30} color="#ffce3e"/>
+            <Cog width={30} height={30} color="#ffce3e" />
             <p className="paragraph font-semibold">Zuverlässigkeit</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
-            <Wand2 width={30} height={30} color="#ffce3e"/>
+            <Wand2 width={30} height={30} color="#ffce3e" />
             <p className="paragraph font-semibold">Kreativität</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
-            <Headphones width={30} height={30} color="#ffce3e"/>
+            <Headphones width={30} height={30} color="#ffce3e" />
             <p className="paragraph font-semibold">Kundenservice</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">
-            <ArrowUpNarrowWide width={30} height={30} color="#ffce3e"/>
+            <ArrowUpNarrowWide width={30} height={30} color="#ffce3e" />
             <p className="paragraph font-semibold">Effizienz</p>
           </div>
         </div>
