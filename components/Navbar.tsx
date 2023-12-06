@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="h-full flex justify-between items-center w-full max-w-screen-xl mx-auto">
         <h2 className='font-semibold text-md lg:text-2xl'>
           <Link href="/" className='flex flex-row flex-wrap justify-center gap-2 items-center'>
-          <Image src="/pflasterbau-berisha-sm.png" alt='src' width={75} height={75}/>
+            <Image src="/pflasterbau-berisha-sm.png" alt='src' width={75} height={75} />
             <h2 className='hidden md:block'>Pflasterbau Meisterbetrieb</h2>
           </Link>
         </h2>
@@ -27,7 +27,7 @@ export default function Navbar() {
             <Link href="/">Leistungen</Link>
           </li>
           <li>
-          <Link href="/">Referenzen</Link>
+            <Link href="/">Referenzen</Link>
           </li>
           <li>
             <Button id="contact" className='bg-[#fee856] hover:bg-[#ffce3e] text-black font-bold'>
@@ -60,12 +60,12 @@ function Mobile({ isOpened, close }: { isOpened: boolean, close: () => void }) {
             <X size={30} />
           </button>
           <h2 className='font-bold text-md lg:text-2xl'>
-          <Link href="/df" className='flex flex-col gap-4 flex-wrap justify-center items-center'>
-          <h2>Pflasterbau Meisterbetrieb</h2>
-          <Image src="/pflasterbau-berisha-sm.png" alt='src' width={85} height={85}/>
+            <Link href="/df" className='flex flex-col gap-4 flex-wrap justify-center items-center'>
+              <h2>Pflasterbau Meisterbetrieb</h2>
+              <Image src="/pflasterbau-berisha-sm.png" alt='src' width={85} height={85} />
 
-          </Link>
-        </h2>
+            </Link>
+          </h2>
           <ul className='flex flex-col justify-center mt-8 gap-6 items-center'>
             <li>
               <Link href="/">Startseite</Link>
@@ -74,10 +74,10 @@ function Mobile({ isOpened, close }: { isOpened: boolean, close: () => void }) {
               <Link href="/">Über uns</Link>
             </li>
             <li>
-            <Link href="/">Leistungen</Link>
+              <Link href="/">Leistungen</Link>
             </li>
             <li>
-            <Link href="/">Referenzen</Link>
+              <Link href="/">Referenzen</Link>
             </li>
             <li>
               <Button id="contact" className='bg-[#fee856] hover:bg-[#ffce3e] text-black font-bold'>
