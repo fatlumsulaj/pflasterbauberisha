@@ -52,7 +52,7 @@ function Mobile({ isOpened, close }: { isOpened: boolean, close: () => void }) {
     <AnimatePresence>
       {isOpened && (
         <motion.div
-          className='h-screen w-full flex flex-col justify-center top-0 fixed left-0 bg-[#1a1a1a] p-6'
+          className='h-screen w-full flex flex-col justify-center top-0 fixed left-0 z-50 bg-[#1a1a1a] p-6'
           initial={{ x: '-100vw ' }}
           animate={{ x: 0, transition: { type: 'just' } }}
           exit={{ x: '-100vw', transition: { type: "just" } }}>

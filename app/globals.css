@@ -16,6 +16,11 @@
   background-position: center;
 }
 
+.contact_bg, section#kontakt {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.808)), url('https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/pflasterbau2_9CSITgSgj7.jpg?updatedAt=1701705583941');
+  background-size: cover;
+  background-position: center;
+}
 
 .max-container {
   @apply mx-auto max-w-[1500px]

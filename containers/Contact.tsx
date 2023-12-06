@@ -7,8 +7,7 @@ import { Button } from '@/components/ui/button'
 
 export default function Contact() {
   return (
-    <section id="kontakt" className='text-white relative py-20 px-6 md:px-8'>
-      <img src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/pflasterbau2_9CSITgSgj7.jpg?updatedAt=1701705583941" alt="Pflasterbau" className="brightness-[.15] object-fill w-full h-full absolute top-0 left-0 -z-50" />
+    <section id="kontakt" className='text-white relative py-20 px-6 md:px-8 -z-10 contact_bg'>
       <h2 className='h2 text-center'>Get in touch</h2>
       <form className="mt-4 md:mt-8 max-w-[900px] mx-auto">
         <div className="flex flex-col md:flex-row gap-2">
