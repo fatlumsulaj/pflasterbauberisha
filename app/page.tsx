@@ -4,6 +4,7 @@ import Results from "@/containers/Results";
 import Services from "@/containers/Services";
 import Projects from "@/containers/Projects";
 import Faq from "@/containers/Faq";
+import Contact from "@/containers/Contact";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Projects />
       <Faq />
+      <Contact />
     </main>
   );
 }
