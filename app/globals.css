@@ -28,8 +28,12 @@
   background-position: center;
 }
 
-.paging-item {
-  color: white;
+.paging-dots {
+  @apply flex gap-4
+}
+
+.pagind-dots svg {
+  fill: white
 }
 
 .max-container {

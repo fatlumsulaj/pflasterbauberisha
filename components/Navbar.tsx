@@ -11,7 +11,7 @@ export default function Navbar() {
   const [mobile, setMobile] = useState<boolean>(false)
 
   return (
-    <nav className={`fixed top-0 bg-[#1a1a1a] h-[70px] w-full px-6 text-white ${nunito.className}`}>
+    <nav className={`fixed top-0 bg-[#1a1a1a] h-[70px] w-full px-6 z-50 text-white ${nunito.className}`}>
       <div className="h-full flex justify-between items-center w-full max-w-screen-xl mx-auto">
         <h2 className='font-semibold text-md lg:text-2xl'>
           <Link href="/" className='flex flex-row flex-wrap justify-center gap-2 items-center'>
