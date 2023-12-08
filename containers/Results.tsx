@@ -58,7 +58,7 @@ const Results = () => {
           <p className="mt-2 text-center md:text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi deserunt mollitia adipisci iste dolorum ad nulla debitis modi provident laudantium..</p>
         </div>
         <div className="w-full md:w-[41.666%]">
-          <div className="h-full md:-mt-36">
+          <div className="h-full md:-mt-36 z-50">
             <div className="bg-neutral-800 p-5">
               <h3 className="font-bold text-xl text-center md:text-left md:text-2xl">Building experts</h3>
             </div>
