@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { nunito } from "@/app/ui/fonts";
+import { ChevronRight } from "lucide-react";
 import {
   Timer,
   BadgeCheck,
@@ -10,6 +10,7 @@ import {
   ArrowUpNarrowWide,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
 const Line = () => {
   return <hr className="w-[80px] h-[4px] my-4 bg-[#fee856]" />;
 };
@@ -48,6 +49,26 @@ const About = () => {
           <h2 className="heading2">Warum Sie uns wählen sollten</h2>
           <hr className="w-[80px] h-[4px] my-4 bg-[#fee856]" />
           <p className="xl:max-w-[500px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque earum iusto tenetur modi. Rem aspernatur provident magni unde reprehenderit? Laudantium nesciunt explicabo corporis vero dolorem ab fuga corrupti aliquid? Rem aspernatur provident magni unde reprehenderit? Laudantium nesciunt explicabo corporis vero dolorem ab fuga corrupti aliquid?</p>
+          <div className="grid grid-cols-2 mt-4 gap-x-1 gap-y-2">
+            <div className="flex gap-1 font-medium items-center">
+              <ChevronRight size={16} className="text-mikado" /> Erfahrung
+            </div>
+            <div className="flex gap-1 font-medium items-center">
+              <ChevronRight size={16} className="text-mikado" /> Qualität
+            </div>
+            <div className="flex gap-1 font-medium items-center">
+              <ChevronRight size={16} className="text-mikado" /> Zuverlässigkeit
+            </div>
+            <div className="flex gap-1 font-medium items-center">
+              <ChevronRight size={16} className="text-mikado" /> Kreativität
+            </div>
+            <div className="flex gap-1 font-medium items-center">
+              <ChevronRight size={16} className="text-mikado" /> Kundenservice
+            </div>
+            <div className="flex gap-1 font-medium items-center">
+              <ChevronRight size={16} className="text-mikado" /> Effizienz
+            </div>
+          </div>
         </div>
         <div className="flex flex-row flex-wrap max-w-[430px] justify-center gap-6">
           <div className="flex flex-col justify-center items-center gap-1 w-[160px] border-[1px] border-gray-200 p-6 shadow-md">

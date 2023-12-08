@@ -13,7 +13,7 @@ const Hero = () => {
       {/* @ts-ignore */}
       <Carousel autoplay autoplayInterval={5000} defaultControlsConfig={{ nextButtonText: <ChevronRight />, prevButtonText: <ChevronLeft />, pagingDotsStyle: { scale: 1.8 }, pagingDotsContainerClassName: "paging-dots"}}>
         <section
-          className={`mt-[70px] background1 bg-black h-[600px] md:h-[700px] flex justify-center items-center text-center padding-container pb-[100px]`}
+          className={`mt-[70px] background1 bg-black h-[600px] md:h-[700px] flex justify-center items-center text-center padding-container pb-[100px] -z-20`}
         >
           <img className="hidden md:block" src="/line-left.png" alt="line" />
           <div className="">
