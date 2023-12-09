@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { Facebook, Instagram, Mail, Phone, Twitter } from 'lucide-react'
+import { Copyright, Facebook, Instagram, Mail, Phone, Twitter } from 'lucide-react'
 
 const Footer = () => {
   return (
@@ -59,6 +59,9 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="flex justify-center items-center gap-1 border-t-2 border-solid border-t-neutral-600 max-w-[1000px] mx-auto py-6">
+        <Copyright /> Pflasterbau { new Date().getFullYear() }
       </div>
     </footer>
   )
