@@ -47,11 +47,11 @@
 }
 
 .padding-container {
-  @apply px-[12px] lg:px-[20px]
+  @apply px-4 lg:px-[20px]
 }
 
 .heading1 {
-  @apply text-[32px] lg:text-[45px];
+  @apply text-[26px] md:text-[32px] lg:text-[45px];
   font-weight: 700;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .paragraph {
-  @apply text-[17px] lg:text-[19px]
+  @apply md:text-[17px] lg:text-[19px]
 }
 
 .paragraph-sm {
