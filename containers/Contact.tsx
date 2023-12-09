@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 
 export default function Contact() {
   return (
-    <section id="kontakt" className='text-white relative py-20 px-6 md:px-8 -z-10 contact_bg'>
+    <section id="kontakt" className='text-white relative py-20 px-6 md:px-8 z-10 contact_bg'>
       <h2 className='h2 text-center'>Get in touch</h2>
       <form className="mt-4 md:mt-8 max-w-[900px] mx-auto">
         <div className="flex flex-col md:flex-row gap-2">

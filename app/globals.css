@@ -10,14 +10,20 @@
 
 
 .background1 {
-  background: linear-gradient(45deg, rgba(35, 35, 35, 0.884), rgba(35, 35, 35, 0.664)), url("/pflasterbau-hintergrund.png");
-  background-size: contain;
-  background-repeat: repeat;
-  background-position: center;
+  background: linear-gradient(45deg, rgba(35, 35, 35, 0.884), rgba(35, 35, 35, 0.664)), url("https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/hero%20background%201_prNl5xnd4?updatedAt=1702145246719");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
 }
 
 .background2 {
-  background: linear-gradient(45deg, rgba(35, 35, 35, 0.884), rgba(35, 35, 35, 0.664)), url("https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/hintergrund1_eqI0UdkPt.png?updatedAt=1701890094697");
+  background: linear-gradient(45deg, rgba(35, 35, 35, 0.884), rgba(35, 35, 35, 0.664)), url("/pflasterbau-hintergrund.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.background3 {
+  background: linear-gradient(45deg, rgba(35, 35, 35, 0.884), rgba(35, 35, 35, 0.664)), url("https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/workers-construction-site_ZfIape23S.jpg?updatedAt=1702145999054");
   background-size: cover;
   background-position: center;
 }

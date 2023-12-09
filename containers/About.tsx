@@ -44,9 +44,9 @@ const About = () => {
           alt="Pflasterbau Berisha"
         />
       </div>
-      <div className="max-w-screen-smaller mt-14 mx-auto flex flex-row-reverse items-center gap-x-14">
-        <div className="text-left w-2/3 flex gap-14">
-          <div className="flex flex-col justify-between">
+      <div className="max-w-screen-smaller mt-14 mx-auto flex flex-col lg:flex-row-reverse items-center gap-y-10 gap-x-14">
+        <div className="text-left w-full lg:w-2/3 flex flex-col-reverse lg:flex-row gap-14">
+          <div className="flex flex-row max-w-[400px] mx-auto w-full lg:mx-0 lg:w-auto lg:max-w-none lg:flex-col justify-between">
             <div>
               <h5 className="font-bold text-2xl md:text-3xl lg:text-4xl text-center">43</h5>
               <p className="text-center text-neutral-600">Workers</p>
@@ -86,7 +86,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <img className="w-1/3 object-cover" src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/Why%20choose%20us_Nfk99gFrI?updatedAt=1702069241166" alt="" />
+        <img className="w-full max-w-[300px] lg:max-w-none lg:w-1/3 object-cover rounded-md" src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/Why%20choose%20us_Nfk99gFrI?updatedAt=1702069241166" alt="" />
       </div>
     </section>
   );
