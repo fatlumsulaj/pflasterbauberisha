@@ -1,17 +1,23 @@
 "use client"
 import Link from 'next/link'
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { AlignJustify, X } from 'lucide-react'
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from './ui/dropdown-menu'
 import { Button } from './ui/button'
 import { AnimatePresence, motion } from 'framer-motion'
-import { nunito } from '@/app/ui/fonts'
+import { usePathname } from 'next/navigation'
+
 export default function Navbar() {
+  const path = usePathname();
   const [mobile, setMobile] = useState<boolean>(false)
 
+  useEffect(() => {
+    setMobile(false);
+  }, [path])
+
   return (
-    <nav className={`fixed top-0 bg-[#1a1a1a] h-[70px] w-full px-6 z-50 text-white ${nunito.className}`}>
+    <nav className={`fixed top-0 bg-[#1a1a1a] h-[70px] w-full px-6 z-50 text-white`}>
       <div className="h-full flex justify-between items-center w-full max-w-screen-xl mx-auto">
         <h2 className='font-semibold text-md lg:text-2xl'>
           <Link href="/" className='flex flex-row flex-wrap justify-center gap-2 items-center'>
@@ -21,20 +27,20 @@ export default function Navbar() {
         </h2>
         <ul className='hidden md:flex gap-6 items-center'>
           <li>
-            <Link href="/">Über uns</Link>
+            <Link href="/#über-uns">Über uns</Link>
           </li>
           <li>
-            <Link href="/">Leistungen</Link>
+            <Link href="/#leistungen">Leistungen</Link>
           </li>
           <li>
-            <Link href="/">Referenzen</Link>
+            <Link href="/#referenzen">Referenzen</Link>
           </li>
           <li>
-            <Button id="contact" className='bg-[#fee856] hover:bg-[#ffce3e] text-black font-bold'>
-              <Link href="/">
+            <Link href="/kontakt">
+              <Button id="contact" className='bg-[#fee856] hover:bg-[#ffce3e] text-black font-bold'>
                 Kontakt
-              </Link>
-            </Button>
+              </Button>
+            </Link>
           </li>
         </ul>
         <Button onClick={() => setMobile(!mobile)} size="icon" variant="ghost" className='md:hidden'>
@@ -71,20 +77,20 @@ function Mobile({ isOpened, close }: { isOpened: boolean, close: () => void }) {
               <Link href="/">Startseite</Link>
             </li>
             <li>
-              <Link href="/">Über uns</Link>
+              <Link href="/#über-uns">Über uns</Link>
             </li>
             <li>
-              <Link href="/">Leistungen</Link>
+              <Link href="/#leistungen">Leistungen</Link>
             </li>
             <li>
-              <Link href="/">Referenzen</Link>
+              <Link href="/#referenzen">Referenzen</Link>
             </li>
             <li>
-              <Button id="contact" className='bg-[#fee856] hover:bg-[#ffce3e] text-black font-bold'>
-                <Link href="/">
+              <Link href="/kontakt">
+                <Button id="contact" className='bg-[#fee856] hover:bg-[#ffce3e] text-black font-bold'>
                   Kontakt
-                </Link>
-              </Button>
+                </Button>
+              </Link>
             </li>
           </ul>
         </motion.div>

@@ -5,7 +5,7 @@ import { Copyright, Facebook, Instagram, Mail, Phone, Twitter } from 'lucide-rea
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-900 text-white px-6 md:px-8">
+    <footer className={`bg-neutral-900 text-white px-6 md:px-8`}>
       <div className="grid grid-cols-1 md:grid-cols-9 py-10 gap-8 max-w-[1000px] mx-auto">
         <div className='md:col-span-5'>
           <Link href="/" className='flex flex-row gap-2 items-center justify-center md:justify-start'>

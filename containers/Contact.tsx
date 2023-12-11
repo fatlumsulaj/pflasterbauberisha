@@ -1,13 +1,18 @@
+"use client"
+
 import React from 'react'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Button } from '@/components/ui/button'
+import { usePathname } from 'next/navigation'
 
 export default function Contact() {
+  const path = usePathname();
+
   return (
-    <section id="kontakt" className='text-white relative py-20 px-6 md:px-8 z-10 contact_bg'>
+    <section id="kontakt" className={`text-white relative py-20 px-6 md:px-8 z-10 contact_bg ${path === "/kontakt" && "mt-[70px]"}`}>
       <h2 className='h2 text-center'>Get in touch</h2>
       <form className="mt-4 md:mt-8 max-w-[900px] mx-auto">
         <div className="flex flex-col md:flex-row gap-2">
