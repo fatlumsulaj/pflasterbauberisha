@@ -13,11 +13,10 @@ const Hero = () => {
       {/* @ts-ignore */}
       <Carousel defaultControlsConfig={{ nextButtonText: <ChevronRight />, prevButtonText: <ChevronLeft />, pagingDotsStyle: { scale: 1.8 }, pagingDotsContainerClassName: "paging-dots" }}>
         <section
-          className={`mt-[70px] background1 bg-black h-[600px] md:h-[700px] flex justify-center items-center text-center padding-container pb-[100px] -z-20`}
+          className={`mt-[70px] background3 bg-black h-[600px] md:h-[700px] flex justify-center items-center text-center padding-container pb-[100px] -z-20`}
         >
           <div className="max-w-screen-smaller w-full">
-            <p className="paragraph uppercase text-white text-left">Pflasterbau Unternehmen</p>
-            <h1 className="heading1 text-white text-left">Berisha Pflasterbau Meisterbetieb</h1>
+            <h1 className="text-[32px] md:text-[38px] lg:text-[50px] font-semibold text-white text-left pb-3">Berisha Pflasterbau Meisterbetrieb</h1>
             <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
               provident, delectus adipisci accusantium, distinctio, rem alias dicta
@@ -25,8 +24,8 @@ const Hero = () => {
             </p>
             <div className="flex justify-start gap-2">
               <Button size="lg" className="bg-main2 text-black font-medium hover:bg-main1">
-                <Link href="/#leistungen">
-                  Leistungen
+                <Link href="/#über-uns">
+                  Über uns
                 </Link>
               </Button>
             </div>
@@ -46,7 +45,7 @@ const Hero = () => {
             </p>
             <div className="flex justify-start gap-2">
               <Button size="lg" className="bg-main2 text-black font-medium hover:bg-main1">
-                <Link href="/#über-uns">
+                <Link href="/#leistungen">
                   Leistungen
                 </Link>
               </Button>
