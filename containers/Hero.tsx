@@ -17,7 +17,7 @@ const Hero = () => {
         >
           <div className="max-w-screen-smaller w-full">
             <p className="paragraph uppercase text-white text-left">Pflasterbau Unternehmen</p>
-            <h1 className="heading1 text-white text-left">Header One</h1>
+            <h1 className="heading1 text-white text-left">Berisha Pflasterbau Meisterbetieb</h1>
             <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
               provident, delectus adipisci accusantium, distinctio, rem alias dicta
@@ -38,7 +38,7 @@ const Hero = () => {
         >
           <div className="max-w-screen-smaller w-full">
             <p className="paragraph uppercase text-white text-left">Pflasterbau Unternehmen</p>
-            <h1 className="heading1 text-white text-left">Header Two</h1>
+            <h1 className="heading1 text-white text-left">Handwerk mit Perfektion</h1>
             <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
               provident, delectus adipisci accusantium, distinctio, rem alias dicta
@@ -47,7 +47,7 @@ const Hero = () => {
             <div className="flex justify-start gap-2">
               <Button size="lg" className="bg-main2 text-black font-medium hover:bg-main1">
                 <Link href="/#über-uns">
-                  Über uns
+                  Leistungen
                 </Link>
               </Button>
             </div>
@@ -59,7 +59,7 @@ const Hero = () => {
         >
           <div className="max-w-screen-smaller w-full">
             <p className="paragraph uppercase text-white text-left">Pflasterbau Unternehmen</p>
-            <h1 className="heading1 text-white text-left">Header Three</h1>
+            <h1 className="heading1 text-white text-left">Pflasterbau aus Leidenschaft</h1>
             <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
               provident, delectus adipisci accusantium, distinctio, rem alias dicta
@@ -68,7 +68,7 @@ const Hero = () => {
             <div className="flex justify-start gap-2">
               <Button size="lg" className="bg-main2 text-black font-medium hover:bg-main1">
                 <Link href="/#projekte">
-                  Projekte
+                  Referenzen
                 </Link>
               </Button>
             </div>

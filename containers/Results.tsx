@@ -53,9 +53,9 @@ const Results = () => {
           <h2 className="font-extrabold text-4xl lg:text-7xl text-sunglow text-center">1000+</h2>
         </div>
 
-        <div className="lg:w-1/3">
-          <h3 className="font-bold text-xl md:text-2xl text-center lg:text-left">Completed projects</h3>
-          <p className="mt-2 text-center lg:text-left max-w-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi deserunt mollitia adipisci iste dolorum ad nulla debitis modi provident laudantium..</p>
+        <div className="lg:w-1/2">
+          <h3 className="font-bold text-xl md:text-2xl text-center lg:text-left">Abgeschlossene Projekte</h3>
+          <p className="mt-2 text-center lg:text-left max-w-lg">Verleihen Sie Ihren Träumen eine feste Grundlage - mit Berisha Pflasterbau. Wir verwandeln Ihre Vorstellungen in atemberaubende Pflasterarbeiten. Von präzisen Verlegungen bis zur Schaffung einzigartiger Außenbereiche - lassen Sie uns gemeinsam Ihren Traum von perfekten Pflasterbau realisieren.</p>
         </div>
         <div className="w-full max-w-lg lg:w-[41.666%] lg:relative">
           <div className="h-full lg:-top-52 z-30 lg:absolute">
