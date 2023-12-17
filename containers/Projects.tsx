@@ -7,7 +7,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 
 export default function Projects() {
   return (
-    <section id="referenzen">
+    <section id="referenzen" className='hidden'>
       <div className='bg-mikado'>
         <div className="max-w-screen-small px-6 md:px-8 py-12 md:py-16 mx-auto flex justify-between items-start gap-y-4 md:items-center flex-col md:flex-row">
           <div>
