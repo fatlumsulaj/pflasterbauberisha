@@ -33,7 +33,7 @@ export default function Navbar() {
             <Link href="/#leistungen">Leistungen</Link>
           </li>
           <li>
-            <Link href="/#referenzen">Referenzen</Link>
+            <Link href="/#faq">FAQ</Link>
           </li>
           <li>
             <Link href="/kontakt">
@@ -83,7 +83,7 @@ function Mobile({ isOpened, close }: { isOpened: boolean, close: () => void }) {
               <Link href="/#leistungen">Leistungen</Link>
             </li>
             <li>
-              <Link href="/#referenzen">Referenzen</Link>
+              <Link href="/#faq">FAQ</Link>
             </li>
             <li>
               <Link href="/kontakt">

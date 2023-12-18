@@ -10,7 +10,7 @@ import {
 
 export default function Faq() {
   return (
-    <section className='px-6 md:px-8'>
+    <section className='px-6 md:px-8' id="faq">
       <div className="max-w-screen-smaller mx-auto py-20 flex items-center flex-col-reverse lg:flex-row">
         <img className='w-3/4 lg:w-1/2' src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/Faq%20image%20pflasterbau%20berisha_JtqcHphv8.png?updatedAt=1701800788698" alt="Pflasterbauberisha" />
         <div className='lg:w-1/2'>

@@ -15,31 +15,33 @@ const Footer = () => {
 
           <a href="tel:+" className='flex gap-2 items-center justify-center md:justify-start mt-4 font-medium'>
             <Phone size={18} />
-            0545 545 4545
+            0151 15231645
           </a>
           <a href="mailto:" className='flex gap-2 items-center justify-center md:justify-start mt-4 font-medium'>
             <Mail size={18} />
-            contact@pflasterbauberisha.com
+            sherifpflasterbaupassau@googlemail.com
           </a>
         </div>
         <div className='md:col-span-2 flex flex-col items-center md:items-start'>
           <h3 className='font-semibold md:text-lg'>Links</h3>
           <ul className='mt-2 text-center md:text-left'>
             <li className='my-2 text-[15px] text-neutral-300'>
-              <Link href="#über-uns">Über uns</Link>
+              <Link href="/#über-uns">Über uns</Link>
             </li>
             <li className='my-2 text-[15px] text-neutral-300'>
-              <Link href="#leistungen">Leistungen</Link>
+              <Link href="/#leistungen">Leistungen</Link>
             </li>
             <li className='my-2 text-[15px] text-neutral-300'>
-              <Link href="#referenzen">Referenzen</Link>
+              <Link href="/#faq">FAQ</Link>
             </li>
             <li className='my-2 text-[15px] text-neutral-300'>
-              <Link href="#kontakt">Kontakt</Link>
+              <Link href="/#kontakt">Kontakt</Link>
             </li>
           </ul>
         </div>
+        {/*
         <div className='md:col-span-2 flex flex-col items-center md:items-start'>
+          
           <h3 className="font-semibold md:text-lg">Socials</h3>
           <ul className="mt-2 text-center md:text-left">
             <li className="my-2 text-[15px] text-neutral-300">
@@ -59,10 +61,14 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        */}
       </div>
       <div className="flex justify-center items-center gap-1 border-t-2 border-solid border-t-neutral-600 max-w-[1000px] mx-auto py-6">
         <Copyright /> Pflasterbau { new Date().getFullYear() }
+        
       </div>
+      
+      
     </footer>
   )
 }

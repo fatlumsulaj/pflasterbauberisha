@@ -60,11 +60,11 @@ const Results = () => {
         <div className="w-full max-w-lg lg:w-[41.666%] lg:relative">
           <div className="h-full lg:-top-52 z-30 lg:absolute">
             <div className="bg-neutral-800 p-5">
-              <h3 className="font-bold text-xl text-center md:text-left md:text-2xl">Building experts</h3>
+              <h3 className="font-bold text-xl text-center md:text-left md:text-2xl">Experten für Pflasterbau</h3>
             </div>
             <div className="bg-mikado p-5 pb-10 flex flex-col items-center md:items-start">
               <p className="text-black font-medium text-center md:text-left">We are changing the way we think about the building process and are able to achieve significant cost and schedule savings for our clients.</p>
-              <Button className="mt-5 bg-neutral-900">Work with us <ChevronRight size={16} /></Button>
+              <Button className="mt-5 bg-neutral-900">Projekt starten <ChevronRight size={16} /></Button>
             </div>
           </div>
         </div>

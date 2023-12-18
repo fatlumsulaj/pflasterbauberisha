@@ -18,9 +18,7 @@ const Hero = () => {
           <div className="max-w-screen-smaller w-full">
             <h1 className="text-[32px] md:text-[38px] lg:text-[50px] font-semibold text-white text-left pb-3">Berisha Pflasterbau Meisterbetrieb</h1>
             <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-              provident, delectus adipisci accusantium, distinctio, rem alias dicta
-              nam dolor nobis earum.
+            Ihrem zuverlässigen Partner für hochwertige Pflasterarbeiten und kreative Gestaltung im Außenbereich. Entdecken Sie unsere umfassende Expertise und lassen Sie uns gemeinsam Ihr individuelles Projekt realisieren.
             </p>
             <div className="flex justify-start gap-2">
               <Button size="lg" className="bg-main2 text-black font-medium hover:bg-main1">
@@ -39,9 +37,7 @@ const Hero = () => {
             <p className="paragraph uppercase text-white text-left">Pflasterbau Unternehmen</p>
             <h1 className="heading1 text-white text-left">Handwerk mit Perfektion</h1>
             <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-              provident, delectus adipisci accusantium, distinctio, rem alias dicta
-              nam dolor nobis earum.
+            In unserem Meisterbetrieb steht Präzision an erster Stelle. Wir nehmen uns die Zeit, um Ihr Projekt mit Sorgfalt und Hingabe bis ins kleinste Detail umzusetzen.
             </p>
             <div className="flex justify-start gap-2">
               <Button size="lg" className="bg-main2 text-black font-medium hover:bg-main1">
@@ -60,14 +56,12 @@ const Hero = () => {
             <p className="paragraph uppercase text-white text-left">Pflasterbau Unternehmen</p>
             <h1 className="heading1 text-white text-left">Pflasterbau aus Leidenschaft</h1>
             <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-              provident, delectus adipisci accusantium, distinctio, rem alias dicta
-              nam dolor nobis earum.
+            Unsere Hingabe für exzellente Pflasterarbeiten spiegelt sich in jedem Projekt wider. Bei Berisha Pflasterbau vereinen wir Fachkenntnisse mit Leidenschaft, um einzigartige und langlebige Ergebnisse zu schaffen.
             </p>
             <div className="flex justify-start gap-2">
               <Button size="lg" className="bg-main2 text-black font-medium hover:bg-main1">
-                <Link href="/#projekte">
-                  Referenzen
+                <Link href="/#faq">
+                  FAQ
                 </Link>
               </Button>
             </div>
