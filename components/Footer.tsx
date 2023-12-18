@@ -6,8 +6,8 @@ import { Copyright, Facebook, Instagram, Mail, Phone, Twitter } from 'lucide-rea
 const Footer = () => {
   return (
     <footer className={`bg-neutral-900 text-white px-6 md:px-8`}>
-      <div className="grid grid-cols-1 md:grid-cols-9 py-10 gap-8 max-w-[1000px] mx-auto">
-        <div className='md:col-span-5'>
+      <div className="grid grid-cols-1 md:grid-cols-9 py-10 gap-8 max-w-[800px] mx-auto">
+        <div className='md:col-span-7'>
           <Link href="/" className='flex flex-row gap-2 items-center justify-center md:justify-start'>
             <img src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/pflasterbau-berisha-sm_uzrjr9xRE.png?updatedAt=1701891313295" alt='Pflasterbau Berisha' className='w-10 md:w-16' />
             <h2 className='font-bold md:text-lg'>Pflasterbau Meisterbetrieb</h2>
@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
       <div className="flex justify-center items-center gap-1 border-t-2 border-solid border-t-neutral-600 max-w-[1000px] mx-auto py-6">
         <Copyright /> Pflasterbau { new Date().getFullYear() }
-        
+        <Link href="https://www.inoweb.pro/de"><p>/ INOWEB</p></Link>
       </div>
       
       
