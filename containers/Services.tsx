@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <section className='bg-neutral-50 pt-16 pb-20 md:pb-24 lg:pb-28 px-6 md:px-8' id="leistungen">
       <div className="max-w-screen-small mx-auto">
-        <h4 className='flex gap-1 uppercase text-[15px] font-semibold justify-center items-center'><HardHat size={18} /> What we do</h4>
+        <h4 className='flex gap-1 uppercase text-[15px] font-semibold justify-center items-center'><HardHat size={18} />Was wir machen</h4>
         <h2 className="title text-center mt-2">Unsere Leistungen</h2>
         <p className='text-center max-w-lg mx-auto mt-3'>Entdecken Sie die vielfältigen Leistungen unseres Unternehmens und lassen Sie sich von unserer Expertise überzeugen!</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-10">

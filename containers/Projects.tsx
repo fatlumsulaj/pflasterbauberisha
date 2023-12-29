@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import { ChevronRight, ChevronLeft } from 'lucide-react'
-
+import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog'
 
@@ -14,7 +14,9 @@ export default function Projects() {
             <h2 className='title'>Projekte</h2>
             <p className='mt-2 max-w-lg font-medium'>Sehen Sie sich unsere Projekte zu verschiedenen Pflasterbauleistungen an.</p>
           </div>
+          <Link href="#kontakt">
           <Button className="bg-neutral-900" size="lg">Jetzt Kontakt aufnehmen</Button>
+          </Link>
         </div>
       </div>
       <div className="max-w-screen-small px-6 md:px-8 py-8 lg:py-16 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
