@@ -22,7 +22,7 @@ export default function Contact() {
           </div>
           <div className='md:w-1/2'>
             <Label htmlFor='email'>Email</Label>
-            <Input className='w-full bg-transparent border-neutral-400 mt-2 placeholder:text-neutral-400' placeholder='Fügen Sie Ihre Email-Adresse ein' id="email" type="email" name='email' />Name='w-full bg-transparent border-neutral-400 mt-2 placeholder:text-neutral-400' id="message" name="message" placeholder='Nachricht schreiben' />
+            <Input className='w-full bg-transparent border-neutral-400 mt-2 placeholder:text-neutral-400' placeholder='Fügen Sie Ihre Email-Adresse ein' id="email" type="email" name='email' />
           </div>
         </div>
         <div className="mt-4">
@@ -40,7 +40,7 @@ export default function Contact() {
         </div>
         <div className='mt-4'>
           <Label htmlFor='message'>Nachricht</Label>
-          <Textarea class
+          <Textarea className='w-full bg-transparent border-neutral-400 mt-2 placeholder:text-neutral-400' id="message" name="message" placeholder='Nachricht schreiben' />
         </div>
         <div className='flex justify-end'>
           <Button className='bg-mikado text-black font-medium mt-6 hover:bg-mikado/70' size="lg">Einreichen</Button>
