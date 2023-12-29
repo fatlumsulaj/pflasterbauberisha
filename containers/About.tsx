@@ -25,7 +25,7 @@ const About = () => {
           <h2 className="heading2">Wer wir sind</h2>
           <Line />
           <p>
-          BS Pflasterbau Meisterbetrieb ist ein etablierter Meisterbetrieb mit über 20 Jahren Erfahrung im Pflasterbau. Unsere beeindruckende Erfolgsbilanz von über 1000 Projekten spiegelt unsere Fachkompetenz und Hingabe wider. Mit stolzen 90% unserer Projekte im Herzen Münchens und in ganz Bayern sind wir Ihr verlässlicher Partner für hochwertige Pflaster-, Straßen und Tiefbauarbeiten.
+          BS Pflasterbau Meisterbetrieb ist ein etablierter Meisterbetrieb mit über 20 Jahren Erfahrung im Pflasterbau. Unsere beeindruckende Erfolgsbilanz von über 1000 Projekten spiegelt unsere Fachkompetenz und Hingabe wieder. Mit stolzen 90% unserer Projekte im Herzen Münchens und in ganz Bayern sind wir Ihr verlässlicher Partner für hochwertige Pflaster-, Straßen und Tiefbauarbeiten.
           </p>
           <p className="my-3">Unsere Unterstützung beginnt bei der individuellen Beratung und erstreckt sich bis zur Durchführung, mit jahrelanger Kompetenz und pünktlicher Umsetzung zu einem fairen Preis. Wir sind spezialisiert auf Park- und Hofflächen, Straßen, Einfahrten, Terrassen und alle weiteren Pflasterbauarbeiten. Kontaktieren Sie uns jederzeit per E-Mail, über diese Website, telefonisch oder persönlich, um Ihre Anliegen schnell und zielgerichtet zu lösen.</p>
          {/* <Button variant="outline" className="mt-2">Mehr anzeigen</Button> */}
