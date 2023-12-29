@@ -18,23 +18,23 @@ export default function Faq() {
           <h2 className='title mt-2'>Frequently Asked Questions</h2>
           <Accordion className='flex flex-col items-start gap-y-4 mt-6' type="single" collapsible>
             <AccordionItem value="1">
-              <AccordionTrigger>Welche Arten von Pflasterbelägen bietet Ihr Unternehmen an?</AccordionTrigger>
-              <AccordionContent>Wir bieten eine Vielzahl von Pflasterbelägen, darunter Betonpflaster, Natursteinpflaster und Klinkerpflaster. Jeder Belag hat seine eigenen ästhetischen und funktionalen Eigenschaften, die sich an unterschiedliche Kundenbedürfnisse anpassen.</AccordionContent>
+              <AccordionTrigger>Wie lange dauert ein Pflasterbauprojekt?</AccordionTrigger>
+              <AccordionContent>Ein Pflasterbauprojekt kann je nach Größe und Komplexität variieren. Kleinere Projekte können innerhalb weniger Tage abgeschlossen werden, während größere Projekte mehrere Wochen dauern können.</AccordionContent>
             </AccordionItem>
             <AccordionItem value="2">
-              <AccordionTrigger>Wie kann ich einen Kostenvoranschlag für mein Pflasterprojekt erhalten?</AccordionTrigger>
-              <AccordionContent>Um einen Kostenvoranschlag zu erhalten, können Sie unser Kontaktformular ausfüllen oder uns telefonisch kontaktieren. Wir vereinbaren dann gerne einen Termin, um die Details Ihres Projekts zu besprechen und Ihnen ein maßgeschneidertes Angebot zu unterbreiten.</AccordionContent>
+              <AccordionTrigger>Welche Städte deckt BS Pflasterbau an?</AccordionTrigger>
+              <AccordionContent>Wir decken verschiedene Städte in Bayern ab, darunter München, Nürnberg, Augsburg, Regensburg und viele andere.</AccordionContent>
             </AccordionItem>
             <AccordionItem value="3">
-              <AccordionTrigger>Bietet Ihr Unternehmen auch Reparaturdienstleistungen für bestehende Pflasterflächen an?</AccordionTrigger>
+              <AccordionTrigger>Welche Kosten entstehen bei einem Pflasterprojekt?</AccordionTrigger>
               <AccordionContent>
-                Ja, wir bieten auch Reparaturdienstleistungen an. Ob es sich um kleine Ausbesserungen, das Anheben gesunkener Pflastersteine oder die Komplettrenovierung einer Fläche handelt, stehen wir Ihnen mit unseren Fachkenntnissen zur Verfügung.
+              Die Kosten eines Pflasterprojekts hängen von verschiedenen Faktoren ab, einschließlich der Projektgröße, der gewählten Materialien und der Komplexität. Eine genaue Schätzung kann durch eine individuelle Beratung erfolgen.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="4">
-              <AccordionTrigger>Welche zusätzlichen Dienstleistungen bietet Ihr Pflasterbau-Unternehmen an?</AccordionTrigger>
+              <AccordionTrigger>Welche Vorteile bietet Pflasterung im Vergleich zu Beton oder Asphalt?</AccordionTrigger>
               <AccordionContent>
-              Neben der Verlegung von Pflastersteinen bieten wir auch Leistungen wie die Planung von Pflasterprojekten, die Gestaltung von Außenbereichen und die Integration von Entwässerungslösungen an. Unsere ganzheitlichen Dienstleistungen sollen sicherstellen, dass Ihre Anforderungen umfassend erfüllt werden.
+              Pflasterung bietet im Vergleich zu Beton oder Asphalt mehrere Vorteile, darunter eine ästhetisch ansprechende Oberfläche, einfache Reparaturmöglichkeiten, eine bessere Wasserableitung und Flexibilität bei Temperaturschwankungen, was zu einer längeren Haltbarkeit führen kann.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

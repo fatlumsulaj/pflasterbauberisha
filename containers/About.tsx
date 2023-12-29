@@ -79,7 +79,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <img className="w-full max-w-[300px] lg:max-w-none lg:w-1/3 object-cover rounded-md" src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/Why%20choose%20us_Nfk99gFrI?updatedAt=1702069241166" alt="" />
+        <img className="w-full max-w-[300px] lg:max-w-none lg:w-1/3 object-cover rounded-md" src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/pflasterbauberisha_cDQi821M0?updatedAt=1703807275946" alt="Pflasterbau Berisha" />
       </div>
     </section>
   );

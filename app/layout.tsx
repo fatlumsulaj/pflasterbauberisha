@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import GoogleAnalytics from './GoogleAnalytics'
 
 import { Inter } from 'next/font/google'
 import { Manrope } from 'next/font/google'
@@ -20,6 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+    <GoogleAnalytics GA_TRACKING_ID='G-TT49HEHZHM' />
     <body className={default_font.className}>
       <Navbar />
       {children}

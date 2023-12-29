@@ -63,7 +63,7 @@ const Results = () => {
               <h3 className="font-bold text-xl text-center md:text-left md:text-2xl">Experten für Pflasterbau</h3>
             </div>
             <div className="bg-mikado p-5 pb-10 flex flex-col items-center md:items-start">
-              <p className="text-black font-medium text-center md:text-left">We are changing the way we think about the building process and are able to achieve significant cost and schedule savings for our clients.</p>
+              <p className="text-black font-medium text-center md:text-left">Vertrauen Sie einem Pflasterbauunternehmen mit 20 Jahren Erfahrung und setzen Sie auf Qualität und Professionalität für Ihr nächstes Bauprojekt!</p>
               <Button className="mt-5 bg-neutral-900">Projekt starten <ChevronRight size={16} /></Button>
             </div>
           </div>

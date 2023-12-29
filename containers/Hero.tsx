@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
         </section>
         <section
-          className={`mt-[70px] background3 bg-black h-[600px] md:h-[700px] flex justify-center items-center text-center padding-container pb-[100px] -z-20`}
+          className={`mt-[70px] background1 bg-black h-[600px] md:h-[700px] flex justify-center items-center text-center padding-container pb-[100px] -z-20`}
         >
           <div className="max-w-screen-smaller w-full">
             <p className="paragraph uppercase text-white text-left">Pflasterbau Unternehmen</p>

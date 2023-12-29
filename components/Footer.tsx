@@ -12,7 +12,7 @@ const Footer = () => {
             <img src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/pflasterbau-berisha-sm_uzrjr9xRE.png?updatedAt=1701891313295" alt='Pflasterbau Berisha' className='w-10 md:w-16' />
             <h2 className='font-bold md:text-lg'>Pflasterbau Meisterbetrieb</h2>
           </Link>
-
+<p className='font-semibold text-[18px] pt-4'>Sherif Berisha</p>
           <a href="tel:+" className='flex gap-2 items-center justify-center md:justify-start mt-4 font-medium'>
             <Phone size={18} />
             0151 15231645
