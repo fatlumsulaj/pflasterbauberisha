@@ -15,7 +15,7 @@ export default function Faq() {
         <img className='w-3/4 lg:w-1/2' src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/Faq%20image%20pflasterbau%20berisha_JtqcHphv8.png?updatedAt=1701800788698" alt="Pflasterbauberisha" />
         <div className='lg:w-1/2'>
           <h4 className='flex gap-1 uppercase text-[15px] font-semibold items-center'><HelpCircle size={16} /> Got questions?</h4>
-          <h2 className='title mt-2'>Frequently Asked Questions</h2>
+          <h2 className='title mt-2'>Häufig gestellte Fragen</h2>
           <Accordion className='flex flex-col items-start gap-y-4 mt-6' type="single" collapsible>
             <AccordionItem value="1">
               <AccordionTrigger>Wie lange dauert ein Pflasterbauprojekt?</AccordionTrigger>
