@@ -30,7 +30,7 @@ const Services = () => {
             <h3 className='font-bold md:text-lg mt-6'>Garten- und Landschaftsbau</h3>
             <p className='mt-1 text-neutral-800'>Wir machen Gärten modern: Kreativer Landschaftsbau für zeitgemäße und pflegeleichte Outdoor-Lösungen</p>
 
-            <p className='mt-4 text-[15px]'><strong>Pflasterbau-Leistungen:</strong></p>
+            <p className='mt-4 text-[15px]'><strong>Garten- und Landschaftsbau-Leistungen:</strong></p>
             <ul className="list-disc pl-6 mt-2">
               <li className='my-1 text-neutral-800'>Terrassen und Plätze</li>
               <li className='my-1 text-neutral-800'>Wege und Einfahrten</li>

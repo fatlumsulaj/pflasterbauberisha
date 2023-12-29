@@ -15,7 +15,7 @@ const Footer = () => {
 <p className='font-semibold text-center md:text-left  text-[18px] pt-4'>Sherif Berisha</p>
           <a href="tel:+" className='flex gap-2 items-center justify-center md:justify-start mt-4 font-medium'>
             <Phone size={18} />
-            0151 15231645
+            +49 151 15231645
           </a>
           <a href="mailto:" className='flex gap-2 items-center justify-center md:justify-start mt-4 font-medium'>
             <Mail size={18} />
