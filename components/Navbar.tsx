@@ -74,19 +74,19 @@ function Mobile({ isOpened, close }: { isOpened: boolean, close: () => void }) {
           </h2>
           <ul className='flex flex-col justify-center mt-8 gap-6 items-center'>
             <li>
-              <Link href="/">Startseite</Link>
+              <Link onClick={close} href="/">Startseite</Link>
             </li>
             <li>
-              <Link href="/#über-uns">Über uns</Link>
+              <Link onClick={close} href="/#über-uns">Über uns</Link>
             </li>
             <li>
-              <Link href="/#leistungen">Leistungen</Link>
+              <Link onClick={close} href="/#leistungen">Leistungen</Link>
             </li>
             <li>
-              <Link href="/#referenzen">Referenzen</Link>
+              <Link onClick={close} href="/#referenzen">Referenzen</Link>
             </li>
             <li>
-              <Link href="/kontakt">
+              <Link onClick={close} href="/kontakt">
                 <Button id="contact" className='bg-[#fee856] hover:bg-[#ffce3e] text-black font-bold'>
                   Kontakt
                 </Button>
