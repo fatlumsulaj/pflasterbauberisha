@@ -12,6 +12,7 @@ const default_font = Manrope({ subsets: ['latin'], weight: ['200', '300', '400',
 export const metadata: Metadata = {
   title: 'BS Pflasterbau Meisterbetrieb',
   description: 'Ihrem zuverlässigen Partner für hochwertige Pflasterarbeiten und kreative Gestaltung im Außenbereich. Entdecken Sie unsere umfassende Expertise...',
+  keywords: ["Berisha Pflasterbau", "BS Pflasterbau", "Sherif Berisha", "Pflasterbau Munich", "Pflasterbau Passau"]
 }
 
 export default function RootLayout({

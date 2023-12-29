@@ -19,11 +19,11 @@ export default function Projects() {
       </div>
       <div className="max-w-screen-small px-6 md:px-8 py-8 lg:py-16 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <Project image="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/2-1_oMmVB_mCw.png?updatedAt=1703806360652" />
-        <Project image="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/2-1_oMmVB_mCw.png?updatedAt=1703806360652" />
-        <Project image="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/2-1_oMmVB_mCw.png?updatedAt=1703806360652" />
-        <Project image="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/2-1_oMmVB_mCw.png?updatedAt=1703806360652" />
-        <Project image="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/2-1_oMmVB_mCw.png?updatedAt=1703806360652" />
-        <Project image="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/2-1_oMmVB_mCw.png?updatedAt=1703806360652" />
+        <Project image="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/pflasterbauberisha_cDQi821M0?updatedAt=1703807275946" />
+        <Project image="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/1-1_l5BOQGbGo.png?updatedAt=1703806424939" />
+        <Project image="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/4.-1_hgBXeRNjJ.png?updatedAt=1703806406970" />
+        <Project image="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/Foto-1_VruC3idsj.png?updatedAt=1703805250830" />
+        <Project image="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/Foto-2_7NgawVmy8.png?updatedAt=1703805250326" />
 
       </div>
 
@@ -40,7 +40,7 @@ function Project({ image }: { image: string }) {
           Vollbild
         </DialogTrigger>
         <DialogContent className='lg:max-w-4xl'>
-          <img src={image} alt="" />
+          <img className='w-full object-cover max-h-[90vh]' src={image} alt="" />
         </DialogContent>
       </Dialog>
     </div>
