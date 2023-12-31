@@ -14,7 +14,7 @@ export default function Contact() {
   return (
     <section id="kontakt" className={`text-white relative py-20 px-6 md:px-8 z-10 contact_bg ${path === "/kontakt" && "mt-[70px]"}`}>
       <h2 className='h2 text-center'>Kontaktieren Sie uns</h2>
-      <form className="mt-4 md:mt-8 max-w-[900px] mx-auto">
+      <form className="mt-4 md:mt-8 max-w-[900px] mx-auto" method="POST" action="https://formspree.io/f/mdoqoenb">
         <div className="flex flex-col md:flex-row gap-2">
           <div className='md:w-1/2'>
             <Label htmlFor='name'>Name</Label>
