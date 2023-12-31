@@ -27,8 +27,8 @@ export default function Contact() {
         </div>
         <div className="mt-4">
           <Label htmlFor="service">Leistung</Label>
-          <Select>
-            <SelectTrigger className='w-full bg-transparent border-neutral-400 mt-2 placeholder:text-neutral-400'>
+          <Select name="leistung">
+            <SelectTrigger name="leistung" className='w-full bg-transparent border-neutral-400 mt-2 placeholder:text-neutral-400'>
               <SelectValue placeholder="Leistung auswählen" />
             </SelectTrigger>
             <SelectContent>
