@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 const Results = () => {
   // return (
   //   <section
@@ -64,7 +65,8 @@ const Results = () => {
             </div>
             <div className="bg-mikado p-5 pb-10 flex flex-col items-center md:items-start">
               <p className="text-black font-medium text-center md:text-left">Vertrauen Sie einem Pflasterbauunternehmen mit 20 Jahren Erfahrung und setzen Sie auf Qualität und Professionalität für Ihr nächstes Bauprojekt!</p>
-              <Button className="mt-5 bg-neutral-900">Projekt starten <ChevronRight size={16} /></Button>
+              <Link href="/#kontakt" className="mt-5 bg-neutral-900">
+                <Button>Projekt starten <ChevronRight size={16} /></Button></Link>
             </div>
           </div>
         </div>
