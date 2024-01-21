@@ -66,7 +66,7 @@ const Footer = () => {
       </div>
       <div className="flex justify-center items-center gap-1 border-t-2 border-solid border-t-neutral-600 max-w-[1000px] mx-auto py-6">
         <Copyright /> Pflasterbau { new Date().getFullYear() }
-        <Link href="https://www.inoweb.pro/de"><p>/ INOWEB</p></Link>
+        <Link href="https://www.inoweb-agentur.de"><p>/ INOWEB</p></Link>
       </div>
       
       
