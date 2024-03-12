@@ -10,7 +10,7 @@ const Services = () => {
         <h4 className='flex gap-1 uppercase text-[15px] font-semibold justify-center items-center'><HardHat size={18} />Was wir machen</h4>
         <h2 className="title text-center mt-2">Unsere Leistungen</h2>
         <p className='text-center max-w-lg mx-auto mt-3'>Entdecken Sie die vielfältigen Leistungen unseres Unternehmens und lassen Sie sich von unserer Expertise überzeugen!</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6 mt-10">
 
           <div className="px-6 py-12 flex flex-col items-start border border-solid border-neutral-200 rounded-lg bg-white shadow-sm">
             <Hammer size={80} className='text-mikado' />
@@ -22,10 +22,13 @@ const Services = () => {
               <li className='my-1 text-neutral-800'>Natursteinpflaster</li>
               <li className='my-1 text-neutral-800'>Randsteine</li>
               <li className='my-1 text-neutral-800'>Verbundpflaster usw.</li>
+              <li className='my-1 text-neutral-800'>Wege und Einfahrten</li>
             </ul>
           </div>
+{/* 
 
-          <div className="px-6 py-12 flex flex-col items-start border border-solid border-neutral-200 rounded-lg bg-white shadow-sm">
+*/}
+          <div className="hidden px-6 py-12 flex-col items-start border border-solid border-neutral-200 rounded-lg bg-white shadow-sm">
             <Shovel size={80} className='text-mikado' />
             <h3 className='font-bold md:text-lg mt-6'>Garten- und Landschaftsbau</h3>
             <p className='mt-1 text-neutral-800'>Wir machen Gärten modern: Kreativer Landschaftsbau für zeitgemäße und pflegeleichte Outdoor-Lösungen</p>
