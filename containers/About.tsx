@@ -49,7 +49,7 @@ const About = () => {
               <p className="text-center text-neutral-600">Jahre Erfahrung</p>
             </div>
             <div>
-              <h5 className="font-bold text-2xl md:text-3xl lg:text-4xl text-center">2</h5>
+              <h5 className="font-bold text-2xl md:text-3xl lg:text-4xl text-center">1</h5>
               <p className="text-center text-neutral-600">Leistungen</p>
             </div>
           </div>
