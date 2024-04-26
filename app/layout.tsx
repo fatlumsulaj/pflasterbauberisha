@@ -4,10 +4,9 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import GoogleAnalytics from './GoogleAnalytics'
 
-import { Inter } from 'next/font/google'
-import { Manrope } from 'next/font/google'
+import { Inter, Poppins } from 'next/font/google'
 
-const default_font = Manrope({ subsets: ['latin'], weight: ['200', '300', '400', '500', '600', '700', '800',] })
+const default_font = Inter({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] })
 
 export const metadata: Metadata = {
   title: 'BS Pflasterbau Meisterbetrieb',
