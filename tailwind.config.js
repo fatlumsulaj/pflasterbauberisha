@@ -18,12 +18,14 @@ module.exports = {
     },
     extend: {
       screens: {
+        "web": "1300px",
         'big': "1400px",
         'small': "1200px",
         'smaller': '1140px'
       },
       colors: {
         "mikado": "#ffc300",
+        "primary": '#ffc300',
         "sunglow": "#ffce3e",
         "main1": "#fee856",
         "main2": "#ffce3e;"

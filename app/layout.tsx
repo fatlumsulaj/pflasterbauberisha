@@ -4,9 +4,10 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import GoogleAnalytics from './GoogleAnalytics'
 
-import { Inter, Poppins } from 'next/font/google'
+import { Inter, Poppins, Figtree } from 'next/font/google'
 
-const default_font = Inter({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] })
+// const default_font = Inter({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] })
+const default_font = Figtree({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'BS Pflasterbau Meisterbetrieb',

@@ -1,74 +1,42 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
+import { HardHat } from "lucide-react";
 import Link from "next/link";
+
 const Results = () => {
-  // return (
-  //   <section
-  //     className={`max-container padding-container flex flex-row flex-wrap justify-center mt-[-100px]`}
-  //   >
-  //     <div className="flex flex-col justify-center text-center items-center background-color2 px-10 py-6 md:py-12 w-[450px] lg:w-1/3 rounded-tl-2xl rounded-tr-2xl lg:rounded-tr-none rounded-bl-none lg:rounded-bl-2xl">
-  //       <div className="flex flex-row items-center justify-center text-center gap-2">
-  //         <LandPlot width={30} height={30} />
-  //         <p className="text-[28px] md:text-[35px] font-bold">1000+</p>
-  //       </div>
-  //       <p className="text-[20px] md:text-[25px] font-semibold">
-  //         Projects finished
-  //       </p>
-  //       <p className="max-w-[350px] paragraph-sm italic mt-4">
-  //         Lorem, ipsum dolor sit amet consectetur adipisicing elit adipisicing.
-  //       </p>
-  //     </div>
-
-  //     <div className="flex flex-col justify-center text-center items-center background-color1 px-10 py-6 md:py-12 w-[450px] lg:w-1/3">
-  //       <div className="flex flex-row items-center justify-center text-center gap-2">
-  //         <Clock width={30} height={30} />
-  //         <p className="text-[28px] md:text-[35px] font-bold">20+</p>
-  //       </div>
-  //       <p className="text-[20px] md:text-[25px] font-semibold">
-  //         Years of Experience
-  //       </p>
-  //       <p className="max-w-[350px] paragraph-sm italic mt-4">
-  //         Lorem, ipsum dolor sit amet consectetur adipisicing elit adipisicing.
-  //       </p>
-  //     </div>
-
-  //     <div className="flex flex-col justify-center text-center items-center background-color2 px-10 py-6 md:py-12 w-[450px] lg:w-1/3 rounded-tr-none lg:rounded-tr-2xl rounded-br-2xl rounded-bl-2xl lg:rounded-bl-none">
-  //       <div className="flex flex-row items-center justify-center text-center gap-2">
-  //         <Briefcase width={30} height={30} />
-  //         <p className="text-[28px] md:text-[35px] font-bold">3</p>
-  //       </div>
-  //       <p className="text-[20px] md:text-[25px] font-semibold">
-  //         Professional Serivces
-  //       </p>
-  //       <p className="max-w-[350px] paragraph-sm italic mt-4">
-  //         Lorem, ipsum dolor sit amet consectetur adipisicing elit adipisicing.
-  //       </p>
-  //     </div>
-  //   </section>
-  // );
   return (
-    <section className="bg-neutral-950 py-4 text-white px-6 md:px-8 z-10">
-      <div className="max-w-screen-lg py-10 flex flex-col lg:flex-row items-center gap-4 md:gap-6 mx-auto">
-        <div className="lg:w-1/4">
-          <h2 className="font-extrabold text-4xl lg:text-7xl text-sunglow text-center">1000+</h2>
-        </div>
-
-        <div className="lg:w-1/2">
-          <h3 className="font-bold text-xl md:text-2xl text-center lg:text-left">Abgeschlossene Projekte</h3>
-          <p className="mt-2 text-center lg:text-left max-w-lg">Verleihen Sie Ihren Träumen eine feste Grundlage - mit Berisha Pflasterbau. Wir verwandeln Ihre Vorstellungen in atemberaubende Pflasterarbeiten. Von präzisen Verlegungen bis zur Schaffung einzigartiger Außenbereiche - lassen Sie uns gemeinsam Ihren Traum von perfekten Pflasterbau realisieren.</p>
-        </div>
-        <div className="w-full max-w-lg lg:w-[41.666%] lg:relative">
-          <div className="h-full lg:-top-52 z-30 lg:absolute">
-            <div className="bg-neutral-800 p-5">
-              <h3 className="font-bold text-xl text-center md:text-left md:text-2xl">Experten für Pflasterbau</h3>
-            </div>
-            <div className="bg-mikado p-5 pb-10 flex flex-col items-center md:items-start">
-              <p className="text-black font-medium text-center md:text-left">Vertrauen Sie einem Pflasterbauunternehmen mit 20 Jahren Erfahrung und setzen Sie auf Qualität und Professionalität für Ihr nächstes Bauprojekt!</p>
-              <Link href="/#kontakt" className="mt-5 bg-neutral-900">
-                <Button>Projekt starten <ChevronRight size={16} /></Button></Link>
-            </div>
+    <section className="px-4 md:px-8 py-10">
+      <div className="max-w-screen-web mx-auto grid grid-cols-2 gap-y-6 lg:grid-cols-4 items-center gap-x-4">
+        <div className="flex flex-col lg:flex-row items-center gap-y-3 lg:items-start gap-x-6">
+          <div className="min-w-16 w-16 min-h-16 h-16 rounded-full flex items-center justify-center bg-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-8 min-h-8 w-8 h-8">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 0 1 3 3h-15a3 3 0 0 1 3-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 0 1-.982-3.172M9.497 14.25a7.454 7.454 0 0 0 .981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 0 0 7.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 0 0 2.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 0 1 2.916.52 6.003 6.003 0 0 1-5.395 4.972m0 0a6.726 6.726 0 0 1-2.749 1.35m0 0a6.772 6.772 0 0 1-3.044 0" />
+            </svg>
           </div>
+          <div>
+            <h3 className="font-extrabold text-3xl text-center lg:text-left">20</h3>
+            <p className="text-center lg:text-left">Jahre Erfahrung</p>
+          </div>
+        </div>
+        <div className="flex flex-col lg:flex-row items-center gap-y-3 lg:items-start gap-x-6">
+          <div className="min-w-16 w-16 min-h-16 h-16 rounded-full flex items-center justify-center bg-primary">
+            <HardHat className="min-w-8 min-h-8 w-8 h-8" />
+          </div>
+          <div>
+            <h3 className="font-extrabold text-3xl text-center lg:text-left">1000</h3>
+            <p className="text-center lg:text-left">Projekte</p>
+          </div>
+        </div>
+        <div className="row-start-1 lg:row-start-auto -mt-20 col-span-2 p-6 md:p-10 lg:-mt-32 bg-primary flex flex-col items-center lg:items-start">
+          <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Experten für Pflasterbau</h3>
+          <p className="mt-2 text-center lg:text-left">Vertrauen Sie einem Pflasterbauunternehmen mit 20 Jahren Erfahrung und setzen Sie auf Qualität und Professionalität für Ihr nächstes Bauprojekt!</p>
+          <Link href="/kontakt" className="inline-block mt-4">
+            <Button variant="secondary">Projekt starten  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor" className="min-w-4 ml-2 min-h-4 w-4 h-4">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+            </svg>
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
