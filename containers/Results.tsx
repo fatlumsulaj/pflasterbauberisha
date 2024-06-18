@@ -28,7 +28,7 @@ const Results = () => {
             <p className="text-center lg:text-left">Projekte</p>
           </div>
         </div>
-        <div className="row-start-1 lg:row-start-auto -mt-20 col-span-2 p-6 md:p-10 lg:-mt-32 bg-primary flex flex-col items-center lg:items-start">
+        <div className="row-start-1 lg:row-start-auto -mt-20 col-span-2 p-6 md:p-10 lg:-mt-32 bg-primary relative flex flex-col items-center lg:items-start">
           <h3 className="font-bold text-lg md:text-xl lg:text-2xl">Experten für Pflasterbau</h3>
           <p className="mt-2 text-center lg:text-left">Vertrauen Sie einem Pflasterbauunternehmen mit 20 Jahren Erfahrung und setzen Sie auf Qualität und Professionalität für Ihr nächstes Bauprojekt!</p>
           <Link href="/kontakt" className="inline-block mt-4">

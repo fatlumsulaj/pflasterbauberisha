@@ -13,10 +13,8 @@ export default function Home() {
       <Hero />
 
       <Results />
-      <div className="bg-neutral-100 py-10 px-4 md:px-8">
-        <About />
-        <Services />
-      </div>
+      <About />
+      <Services />
 
       <Projects />
       <Faq />

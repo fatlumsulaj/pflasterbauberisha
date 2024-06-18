@@ -1,92 +1,124 @@
 "use client";
 
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import React, { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { motion } from "framer-motion";
-
-import Carousel from "nuka-carousel"
+import { AnimatePresence, motion } from "framer-motion";
 
 const Hero = () => {
+  const [index, setIndex] = useState(0);
+
+  const next = () => setIndex(index === 2 ? 0 : index + 1)
+  const prev = () => setIndex(index === 0 ? 2 : index - 1)
+
   return (
-    <>
-      {/* @ts-ignore */}
-      {/* <Carousel defaultControlsConfig={{ nextButtonText: <ChevronRight />, prevButtonText: <ChevronLeft />, pagingDotsStyle: { scale: 1.8 }, pagingDotsContainerClassName: "paging-dots" }}>
-        <section
-          className={`background3  bg-black h-[600px] md:h-[700px] flex justify-center items-center text-center padding-container pb-[100px]`}
-        >
-          <div className="max-w-screen-smaller w-full">
-            <h1 className="text-[32px] md:text-[38px] lg:text-[50px] font-semibold text-white text-left pb-3">Berisha Pflasterbau Meisterbetrieb</h1>
-            <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left">
-            Ihrem zuverlässigen Partner für hochwertige Pflasterarbeiten und kreative Gestaltung im Außenbereich. Entdecken Sie unsere umfassende Expertise und lassen Sie uns gemeinsam Ihr individuelles Projekt realisieren.
+    <AnimatePresence initial={false} mode="popLayout">
+      {index === 0 && (
+        <motion.section
+          key="section1"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className={`py-24 md:py-32 lg:py-40 relative xl:py-48 background2 px-4 md:px-14 lg:px-[4.5rem]`}>
+          <div className="absolute w-full h-full flex justify-between items-center top-0 left-0 pointer-events-none text-white">
+            <button onClick={prev} className="w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 bg-black/70 flex items-center justify-center pointer-events-auto hover:cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-6 min-h-6 w-6 h-6 lg:min-w-8 lg:min-h-8 lg:w-8 lg:h-8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+              </svg>
+            </button>
+            <button onClick={next} className="w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 bg-black/70 flex items-center justify-center pointer-events-auto hover:cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-6 min-h-6 w-6 h-6 lg:min-w-8 lg:min-h-8 lg:w-8 lg:h-8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>
+            </button>
+          </div>
+          <div className="max-w-screen-web mx-auto">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white text-left pb-3">Berisha Pflasterbau Meisterbetrieb</h1>
+            <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left hover:cursor-text">
+              Ihrem zuverlässigen Partner für hochwertige Pflasterarbeiten und kreative Gestaltung im Außenbereich. Entdecken Sie unsere umfassende Expertise und lassen Sie uns gemeinsam Ihr individuelles Projekt realisieren.
             </p>
             <div className="flex justify-start gap-2">
-              <Button size="lg" className="bg-main2 text-black font-medium hover:bg-main1">
-                <Link href="/#über-uns">
+              <Button size="lg">
+                <Link href="/#ueber-uns">
                   Über uns
                 </Link>
               </Button>
             </div>
-
           </div>
-        </section>
-        <section
-          className={`background2 bg-black h-[600px] md:h-[700px] flex justify-center items-center text-center padding-container pb-[100px] -z-20`}
-        >
-          <div className="max-w-screen-smaller w-full">
-            <p className="paragraph uppercase text-white text-left">Pflasterbau Unternehmen</p>
-            <h1 className="heading1 text-white text-left">Handwerk mit Perfektion</h1>
-            <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left">
-            In unserem Meisterbetrieb steht Präzision an erster Stelle. Wir nehmen uns die Zeit, um Ihr Projekt mit Sorgfalt und Hingabe bis ins kleinste Detail umzusetzen.
+
+        </motion.section>
+      )}
+      {index === 1 && (
+        <motion.section
+          key="section2"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className={`py-24 md:py-32 lg:py-40 relative w-full xl:py-48 background1 px-4 md:px-14 lg:px-[4.5rem]`}>
+          <div className="absolute w-full h-full flex justify-between items-center top-0 left-0 pointer-events-none text-white">
+            <button onClick={prev} className="w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 bg-black/70 flex items-center justify-center pointer-events-auto hover:cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-6 min-h-6 w-6 h-6 lg:min-w-8 lg:min-h-8 lg:w-8 lg:h-8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+              </svg>
+            </button>
+            <button onClick={next} className="w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 bg-black/70 flex items-center justify-center pointer-events-auto hover:cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-6 min-h-6 w-6 h-6 lg:min-w-8 lg:min-h-8 lg:w-8 lg:h-8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>
+            </button>
+          </div>
+          <div className="max-w-screen-web mx-auto">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white text-left pb-3">Handwerk mit Perfektion</h1>
+            <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left hover:cursor-text">
+              In unserem Meisterbetrieb steht Präzision an erster Stelle. Wir nehmen uns die Zeit, um Ihr Projekt mit Sorgfalt und Hingabe bis ins kleinste Detail umzusetzen.
             </p>
             <div className="flex justify-start gap-2">
-              <Button size="lg" className="bg-main2 text-black font-medium hover:bg-main1">
+              <Button size="lg">
                 <Link href="/#leistungen">
                   Leistungen
                 </Link>
               </Button>
             </div>
-
           </div>
-        </section>
-        <section
-          className={`background1 bg-black h-[600px] md:h-[700px] flex justify-center items-center text-center padding-container pb-[100px] -z-20`}
-        >
-          <div className="max-w-screen-smaller w-full">
-            <p className="paragraph uppercase text-white text-left">Pflasterbau Unternehmen</p>
-            <h1 className="heading1 text-white text-left">Pflasterbau aus Leidenschaft</h1>
-            <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left">
-            Unsere Hingabe für exzellente Pflasterarbeiten spiegelt sich in jedem Projekt wider. Bei Berisha Pflasterbau vereinen wir Fachkenntnisse mit Leidenschaft, um einzigartige und langlebige Ergebnisse zu schaffen.
+
+        </motion.section>
+      )}
+      {index === 2 && (
+        <motion.section
+          key="section3"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className={`py-24 md:py-32 lg:py-40 relative w-full xl:py-48 background3 px-4 md:px-14 lg:px-[4.5rem]`}>
+          <div className="absolute w-full h-full flex justify-between items-center top-0 left-0 pointer-events-none text-white">
+            <button onClick={prev} className="w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 bg-black/70 flex items-center justify-center pointer-events-auto hover:cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-6 min-h-6 w-6 h-6 lg:min-w-8 lg:min-h-8 lg:w-8 lg:h-8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+              </svg>
+            </button>
+            <button onClick={next} className="w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 bg-black/70 flex items-center justify-center pointer-events-auto hover:cursor-pointer">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-6 min-h-6 w-6 h-6 lg:min-w-8 lg:min-h-8 lg:w-8 lg:h-8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>
+            </button>
+          </div>
+          <div className="max-w-screen-web mx-auto">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white text-left pb-3">Pflasterbau aus Leidenschaft</h1>
+            <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left hover:cursor-text">
+              Unsere Hingabe für exzellente Pflasterarbeiten spiegelt sich in jedem Projekt wider. Bei Berisha Pflasterbau vereinen wir Fachkenntnisse mit Leidenschaft, um einzigartige und langlebige Ergebnisse zu schaffen.
             </p>
             <div className="flex justify-start gap-2">
-              <Button size="lg" className="bg-main2 text-black font-medium hover:bg-main1">
+              <Button size="lg">
                 <Link href="/#faq">
                   FAQ
                 </Link>
               </Button>
             </div>
-
           </div>
-        </section>
-      </Carousel> */}
-      <section className="py-24 md:py-32 lg:py-40 xl:py-48 background2 px-4 md:px-8">
-        <div className="max-w-screen-web mx-auto">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white text-left pb-3">Berisha Pflasterbau Meisterbetrieb</h1>
-          <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left">
-            Ihrem zuverlässigen Partner für hochwertige Pflasterarbeiten und kreative Gestaltung im Außenbereich. Entdecken Sie unsere umfassende Expertise und lassen Sie uns gemeinsam Ihr individuelles Projekt realisieren.
-          </p>
-          <div className="flex justify-start gap-2">
-            <Button size="lg">
-              <Link href="/#über-uns">
-                Über uns
-              </Link>
-            </Button>
-          </div>
-        </div>
 
-      </section>
-    </>
+        </motion.section>
+      )}
+    </AnimatePresence>
   );
 };
 

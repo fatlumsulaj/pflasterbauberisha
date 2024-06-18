@@ -42,7 +42,7 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <nav className={`sticky bg-neutral-950 top-0 h-[70px] w-full px-5 text-white`}>
+      <nav className={`sticky bg-neutral-950 top-0 z-50 h-[70px] w-full px-5 text-white`}>
         <div className="h-full flex justify-between items-center w-full max-w-screen-xl mx-auto">
           <h2 className='font-semibold text-md lg:text-2xl'>
             <Link href="/" className='flex flex-row flex-wrap justify-center gap-2 items-center'>
