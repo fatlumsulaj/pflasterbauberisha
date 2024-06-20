@@ -23,6 +23,34 @@ const About = () => {
           </div>
         </div>
       </section>
+      <section className="px-4 md:px-8 bg-neutral-100 py-10 md:py-14 lg:py-20">
+        <div className="max-w-screen-web mx-auto flex flex-col-reverse lg:flex-row items-center gap-6 lg:gap-x-14">
+          <div className="w-full lg:w-1/2 max-w-[250px] md:max-w-sm lg:max-w-md relative">
+            <div className="absolute w-48 h-80 -bottom-4 -left-4 bg-neutral-500"></div>
+            <img src="../images/pflasterbau1.webp" className="relative" alt="Warum Sie uns wählen sollten" />
+          </div>
+          <div className="grow w-full lg:w-1/2">
+            <h2 className="h2 text-center lg:text-left">Warum Sie uns wählen sollten
+            </h2>
+            <Separator className="w-1/3 max-w-[60px] h-1 border-none bg-primary mt-3 mb-4 mx-auto lg:mx-0" />
+            <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left">Wir bei BS Pflasterbau zeichnen uns durch präzise Handwerkskunst, erstklassige Qualität und umfassende Erfahrung im Pflasterbau aus. Unsere Hingabe für exzellente Arbeit spiegelt sich in jedem Projekt wieder.</p>
+            <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left mt-4">Wir verstehen die Einzigartigkeiten jeder Region und nutzen dieses Wissen, um Ihr Projekt zu etwas Besonderem zu machen. Entscheiden Sie sich für BS Pflasterbau, wenn Sie unkomplizierte Handwerkskunst, Fachwissen und beeindruckende Ergebnisse wünschen - eine Partnerschaft, auf die Sie zählen können.</p>
+            <div className="flex justify-center lg:justify-start">
+              <ul className="inline-grid grid-cols-2 mt-4 gap-x-4 gap-y-2">
+                {["Erfahrung", "Zuverlässigkeit", "Kundenservice", "Qualität", "Kreativität", "Effizienz"].map(quality => (
+                  <li key={quality} className="flex items-center gap-x-2 text-[17px] md:text-lg text-black/80">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-primary">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                    </svg>
+                    {quality}
+                  </li>
+                ))}
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
     // <section
     //   className={`max-container padding-container`} id="über-uns"
