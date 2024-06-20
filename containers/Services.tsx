@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <section className='pb-10 md:pb-14 lg:pb-20 bg-neutral-100 mb-10 md:mb-14 lg:mb-20'>
+    <section className='pb-10 md:pb-14 lg:pb-20 bg-neutral-100'>
       <div className="background2 text-white pt-20 pb-32">
         <h2 className="h2 text-center">Leistungen</h2>
         <p className='text-[17px] md:text-lg text-white/80 text-center max-w-lg mx-auto mt-2'>Entdecken Sie die vielfältigen Leistungen unseres Unternehmens und lassen Sie sich von unserer Expertise überzeugen!</p>
