@@ -17,7 +17,7 @@
 }
 
 .background2 {
-  background: linear-gradient(45deg, rgba(35, 35, 35, 0.884), rgba(35, 35, 35, 0.664)), url("/pflasterbau-hintergrund.png");
+  background: linear-gradient(45deg, rgba(35, 35, 35, 0.884), rgba(35, 35, 35, 0.664)), url("../public/images/pflasterbauhintergrund.png");
   background-size: cover;
   background-position: center;
 }

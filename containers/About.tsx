@@ -5,7 +5,7 @@ import { Separator } from "@/components/ui/separator";
 const About = () => {
   return (
     <>
-      <section className="px-4 md:px-8 bg-neutral-100 py-10 md:py-14 lg:py-20">
+      <section id="über-uns" className="px-4 md:px-8 bg-neutral-100 py-10 md:py-14 lg:py-20">
         <div className="max-w-screen-web mx-auto flex flex-col lg:flex-row items-center gap-6">
           <div className="w-full lg:w-1/2">
             <h2 className="h2 text-center lg:text-left">Wer wir sind</h2>
@@ -17,7 +17,7 @@ const About = () => {
           </div>
           <div className="w-full lg:w-1/2">
             <div className="w-full relative max-w-sm lg:max-w-md mx-auto">
-              <img className="max-w-full relative z-30" src="../images/pflasterbau3.jpeg" alt="" />
+              <img className="max-w-full relative z-30" src="../images/ueberuns.png" alt="Über uns" />
               <div className="w-28 lg:w-40 xl:w-52 h-28 lg:h-40 xl:h-52 bg-primary absolute -bottom-4 md:-bottom-5 -right-4 md:-right-5 z-10"></div>
             </div>
           </div>
