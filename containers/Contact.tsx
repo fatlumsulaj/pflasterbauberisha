@@ -47,7 +47,7 @@ export default function Contact() {
     //     </div>
     //   </form>
     // </section>
-    <section>
+    <section id="contact">
       <div className="max-w-screen-web mx-auto flex justify-end md:px-8 lg:-mb-[500px]">
         <div className="p-7 md:p-10 relative z-10 bg-mikado w-full lg:max-w-lg">
           <h2 className='h2'>Uns kontaktieren</h2>

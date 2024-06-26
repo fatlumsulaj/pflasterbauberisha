@@ -36,7 +36,7 @@ const Footer = () => {
               <Link href="/#faq">FAQ</Link>
             </li>
             <li className='my-2 text-[15px] text-neutral-300'>
-              <Link href="/#kontakt">Kontakt</Link>
+              <Link href="/kontakt">Kontakt</Link>
             </li>
             <li className='my-2 text-[15px] text-neutral-300'>
               <Link href="/impressum">Impressum</Link>

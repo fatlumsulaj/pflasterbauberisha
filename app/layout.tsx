@@ -1,12 +1,14 @@
 import type { Metadata } from 'next'
 import './globals.css'
+
+import { Figtree } from 'next/font/google'
+import { Suspense } from 'react'
+
+import CookieBanner from '@/components/cookie-banner'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import GoogleAnalytics from './GoogleAnalytics'
 
-import { Inter, Poppins, Figtree } from 'next/font/google'
-
-// const default_font = Inter({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] })
 const default_font = Figtree({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -22,12 +24,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-    <GoogleAnalytics GA_TRACKING_ID='G-TT49HEHZHM' />
-    <body className={default_font.className}>
-      <Navbar />
-      {children}
-      <Footer />
+      <Suspense>
+        <GoogleAnalytics GA_MEASUREMENT_ID='G-TT49HEHZHM' />
+      </Suspense>
+      <body className={default_font.className}>
+        <Navbar />
+        {children}
+        <Footer />
+        <CookieBanner />
       </body>
-  </html>
+    </html>
   )
 }
