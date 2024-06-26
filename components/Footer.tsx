@@ -38,13 +38,22 @@ const Footer = () => {
             <li className='my-2 text-[15px] text-neutral-300'>
               <Link href="/#kontakt">Kontakt</Link>
             </li>
+            <li className='my-2 text-[15px] text-neutral-300'>
+              <Link href="/impressum">Impressum</Link>
+            </li>
+            <li className='my-2 text-[15px] text-neutral-300'>
+              <Link href="/datenschutz">Datenschutz</Link>
+            </li>
           </ul>
         </div>
       </div>
-      <div className='bg-black flex gap-x-2 py-4 justify-center'>
+      <div className='bg-black text-neutral-200 hidden md:flex gap-x-2 py-4 justify-center'>
         <p>© BS Pflasterbau Meisterbetrieb - Inh. Sherif Berisha {new Date().getFullYear()}</p>
         <span>/</span>
         <Link href="https://www.inoweb-agentur.de"> INOWEB</Link>
+      </div>
+      <div className="bg-black text-neutral-200 md:hidden py-4 px-4">
+        <p className='text-center'>© <br />BS Pflasterbau Meisterbetrieb - Inh. Sherif Berisha {new Date().getFullYear()} / Erstellt von <a className='text-white underline font-medium' href="https://www.inoweb-agentur.de/">INOWEB</a></p>
       </div>
 
 

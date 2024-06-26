@@ -12,9 +12,9 @@ const Services = () => {
           <h3 className="text-lg md:text-xl font-bold text-center">Pflasterbau</h3>
           <p className='mt-2 md:text-[17px] text-black/80 text-center'>Unsere herausragende Leistung im Pflasterbau zeichnet sich durch Präzision, Qualität und ästhetische Gestaltung aus.</p>
         </div>
-        <div className="bg-white p-10">
+        <div className="bg-white p-4 md:p-10">
           <h3 className="text-lg md:text-xl font-bold text-center">Pflasterbau Leistungen</h3>
-          <ul className="grid grid-cols-2 gap-4 mt-5">
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 mt-3 md:mt-5">
             <li className='text-center bg-neutral-100 p-3 font-medium'>Natursteinpflaster</li>
             <li className='text-center bg-neutral-100 p-3 font-medium'>Randsteine</li>
             <li className='text-center bg-neutral-100 p-3 font-medium'>Verbundpflaster</li>

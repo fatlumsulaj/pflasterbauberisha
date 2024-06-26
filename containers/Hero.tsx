@@ -19,7 +19,7 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className={`py-24 md:py-32 lg:py-40 relative xl:py-48 background2 px-4 md:px-14 lg:px-[4.5rem]`}>
+          className={`py-24 md:py-32 lg:py-40 relative xl:py-48 background2 px-6 md:px-14 lg:px-[4.5rem]`}>
           <div className="absolute w-full h-full flex justify-between items-center top-0 left-0 pointer-events-none text-white">
             <button onClick={prev} className="w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 bg-black/70 flex items-center justify-center pointer-events-auto hover:cursor-pointer">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-6 min-h-6 w-6 h-6 lg:min-w-8 lg:min-h-8 lg:w-8 lg:h-8">
@@ -54,7 +54,7 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className={`py-24 md:py-32 lg:py-40 relative w-full xl:py-48 background1 px-4 md:px-14 lg:px-[4.5rem]`}>
+          className={`py-24 md:py-32 lg:py-40 relative w-full xl:py-48 background1 px-6 md:px-14 lg:px-[4.5rem]`}>
           <div className="absolute w-full h-full flex justify-between items-center top-0 left-0 pointer-events-none text-white">
             <button onClick={prev} className="w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 bg-black/70 flex items-center justify-center pointer-events-auto hover:cursor-pointer">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-6 min-h-6 w-6 h-6 lg:min-w-8 lg:min-h-8 lg:w-8 lg:h-8">
@@ -89,7 +89,7 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className={`py-24 md:py-32 lg:py-40 relative w-full xl:py-48 background3 px-4 md:px-14 lg:px-[4.5rem]`}>
+          className={`py-24 md:py-32 lg:py-40 relative w-full xl:py-48 background3 px-6 md:px-14 lg:px-[4.5rem]`}>
           <div className="absolute w-full h-full flex justify-between items-center top-0 left-0 pointer-events-none text-white">
             <button onClick={prev} className="w-8 h-8 md:w-12 md:h-12 lg:w-16 lg:h-16 bg-black/70 flex items-center justify-center pointer-events-auto hover:cursor-pointer">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-6 min-h-6 w-6 h-6 lg:min-w-8 lg:min-h-8 lg:w-8 lg:h-8">
