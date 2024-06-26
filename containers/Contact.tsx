@@ -48,7 +48,7 @@ export default function Contact() {
     //   </form>
     // </section>
     <section>
-      <div className="max-w-screen-web mx-auto flex justify-end lg:px-8 lg:-mb-[500px]">
+      <div className="max-w-screen-web mx-auto flex justify-end md:px-8 lg:-mb-[500px]">
         <div className="p-7 md:p-10 relative z-10 bg-mikado w-full lg:max-w-lg">
           <h2 className='h2'>Uns kontaktieren</h2>
           <form action="https://formspree.io/f/mdoqoenb">
@@ -74,8 +74,8 @@ export default function Contact() {
               </Select>
             </div>
             <div>
-              <Label>Nachricht</Label>
-              <Textarea className='bg-transparent border-black/30 mt-1 placeholder:text-black' id="message" name="message" placeholder='Nachricht schreiben' />
+              <Label htmlFor="nachricht">Nachricht</Label>
+              <Textarea className='bg-transparent border-black/30 mt-1 placeholder:text-black' id="nachricht" name="nachricht" placeholder='Nachricht schreiben' />
             </div>
             <Button variant="secondary" size="lg" className='w-full mt-4'>
               Einreichen

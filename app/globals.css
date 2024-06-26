@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+::selection {
+  color: black;
+  background: #ffd64f;
+}
 
 .background1 {
   background: linear-gradient(45deg, rgba(35, 35, 35, 0.884), rgba(35, 35, 35, 0.664)), url("https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/workers-construction-site_ZfIape23S.jpg?updatedAt=1702145999054");
@@ -50,7 +54,7 @@
   @apply px-4 lg:px-[20px]
 }
 
-.heading1 {
+.heading1, .h1 {
   @apply text-[26px] md:text-[32px] lg:text-[45px];
   font-weight: 700;
 }
