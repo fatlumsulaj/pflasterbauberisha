@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Suspense>
+      <Suspense fallback={<></>}>
         <GoogleAnalytics GA_MEASUREMENT_ID='G-TT49HEHZHM' />
       </Suspense>
       <body className={default_font.className}>
