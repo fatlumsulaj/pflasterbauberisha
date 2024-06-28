@@ -162,7 +162,7 @@ export default function Datenschutz() {
         <p className="text-[17px]">
           BS Pflasterbau Meisterbetrieb
           <br />
-          Passaur Str. 88b
+          Passauer Str. 88b
           <br />
           94121 Salzweg
         </p>
