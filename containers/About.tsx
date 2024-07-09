@@ -17,7 +17,15 @@ const About = () => {
           </div>
           <div className="w-full lg:w-1/2">
             <div className="w-full relative max-w-sm lg:max-w-md mx-auto">
-              <img className="max-w-full relative z-30" src="../images/ueberuns.png" alt="Über uns" />
+              <img className="max-w-full relative z-30"
+
+                src="../images/ueberunsw680.webp"
+                srcSet="../images/ueberunsw480.webp 480w, ../images/ueberunsw680.webp 680w"
+                sizes="(max-width: 640px) 480px,
+                680px"
+                width="680px"
+                height="452px"
+                alt="Über uns" />
               <div className="w-28 lg:w-40 xl:w-52 h-28 lg:h-40 xl:h-52 bg-primary absolute -bottom-3 md:-bottom-5 -right-3 md:-right-5 z-10"></div>
             </div>
           </div>
