@@ -22,9 +22,9 @@ export default function Projects() {
         <Project src={"../images/projekt1.jpg"} caption="Projekt 1" />
         <Project src={"../images/projekt2.png"} caption="Projekt 2" />
         <Project src={"../images/projekt3.jpg"} caption="Projekt 3" />
-        <Project src={"../images/pflasterbauhintergrund.png"} caption="Projekt 4" />
+        <Project src={"../images/pflasterbauhintergrund.webp"} caption="Projekt 4" />
         <Project src={"../images/projekt5.jpg"} caption="Projekt 5" />
-        <Project src={"../images/ueberuns.png"} caption="Projekt 6" />
+        <Project src={"../images/ueberunsw480.webp"} caption="Projekt 6" />
       </div>
     </section>
   )
