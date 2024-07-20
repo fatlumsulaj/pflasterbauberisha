@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import dynamic from 'next/dynamic'
 
 import { Figtree } from 'next/font/google'
 import { Suspense } from 'react'
@@ -8,6 +9,7 @@ import CookieBanner from '@/components/cookie-banner'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import GoogleAnalytics from './GoogleAnalytics'
+// const GoogleAnalytics = dynamic(() => import("./GoogleAnalytics"), { ssr: false })
 
 const default_font = Figtree({ subsets: ['latin'] })
 
