@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import dynamic from 'next/dynamic'
 
 import { Figtree } from 'next/font/google'
 import { Suspense } from 'react'
@@ -9,9 +8,9 @@ import CookieBanner from '@/components/cookie-banner'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import GoogleAnalytics from './GoogleAnalytics'
-// const GoogleAnalytics = dynamic(() => import("./GoogleAnalytics"), { ssr: false })
+import Typebot from '@/components/typebot'
 
-const default_font = Figtree({ subsets: ['latin'] })
+const default_font = Figtree({ subsets: ['latin'], display: 'swap' })
 
 export const metadata: Metadata = {
   title: 'BS Pflasterbau Meisterbetrieb',
@@ -33,6 +32,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <Typebot />
         <CookieBanner />
       </body>
     </html>
