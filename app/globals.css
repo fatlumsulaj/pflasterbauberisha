@@ -54,7 +54,7 @@
 }
 
 .heading2, .title, .h2 {
-  @apply text-[21px] md:text-3xl lg:text-4xl font-bold lg:leading-[48px];
+  @apply text-[21px] md:text-3xl lg:text-4xl xl:text-5xl font-semibold lg:leading-[48px] xl:leading-[60px];
 }
 
 .heading3, .h3 {
