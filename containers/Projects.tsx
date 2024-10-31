@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
-export default function Projects() {
+export default function Projects({ id }: { id?: string }) {
   return (
-    <section id="referenzen" className='px-4 md:px-8 py-10 md:py-14 lg:py-20'>
+    <section id={id || "referenzen"} className='px-4 md:px-8 py-10 md:py-14 lg:py-20'>
       <div className="max-w-screen-web mx-auto">
         <div className='flex flex-col md:flex-row gap-4 justify-between items-center'>
           <div>

@@ -5,6 +5,10 @@ import AboutSection from '@/components/sections/about'
 import HeroSection from '@/components/sections/hero'
 import WhyChooseUs from '@/components/sections/why-choose-us'
 import ServicesSection from '@/components/sections/services'
+import Projects from '@/containers/Projects'
+import Faqs from '@/components/faq'
+import Contact from '@/containers/Contact'
+import FaqSection from '@/components/sections/faq-section'
 
 export const metadata: Metadata = {
   title: "Pflasterbau in München - Berisha Pflasterbau",
@@ -56,6 +60,26 @@ export default function Muenchen() {
           ]
         }
       />
-    </main >
+      <Projects id="projekte" />
+      <FaqSection faqs={[
+            {
+              question:
+                "Wie lange dauert es, Pflasterarbeiten in München durchzuführen?",
+              answer:
+                "Die Dauer der Pflasterarbeiten in München hängt von der Größe und Komplexität des Projekts ab. In der Regel können kleinere Projekte wie Einfahrten oder Wege innerhalb weniger Tage abgeschlossen werden. Für größere Flächen wie Park- oder Hofflächen in München erstellen wir einen maßgeschneiderten Zeitplan, der auch mögliche Genehmigungen und örtliche Bedingungen berücksichtigt.",
+            },
+            {
+              question:
+                "Welche Pflastersteine sind am besten für das Münchener Klima geeignet?",
+              answer:
+                "In München empfehlen wir besonders Natursteinpflaster oder Verbundpflaster, da diese Materialien langlebig und witterungsbeständig sind. Das Münchener Klima mit seinen heißen Sommern und frostigen Wintern stellt hohe Anforderungen an Pflastersteine, daher legen wir großen Wert auf frostresistente Materialien und fachgerechte Verlegung.",
+            },
+            {
+              question: 'Welche Pflasterarbeiten sind für Gärten und Einfahrten in Münchener Wohngebieten ideal?',
+              answer: 'Für Gärten und Einfahrten in Münchener Wohngebieten eignen sich sowohl Naturstein- als auch Verbundpflaster. Naturstein fügt sich ideal in grüne Gartenlandschaften ein, während Verbundpflaster in Einfahrten oft aufgrund seiner Langlebigkeit und Wartungsfreundlichkeit gewählt wird. Beide Materialien sind perfekt an die ästhetischen und funktionalen Anforderungen in München angepasst.'
+            }
+          ]} />
+      <Contact />
+    </main>
   )
 }
