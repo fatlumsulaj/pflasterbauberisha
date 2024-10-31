@@ -6,7 +6,6 @@ import HeroSection from '@/components/sections/hero'
 import WhyChooseUs from '@/components/sections/why-choose-us'
 import ServicesSection from '@/components/sections/services'
 import Projects from '@/containers/Projects'
-import Faqs from '@/components/faq'
 import Contact from '@/containers/Contact'
 import FaqSection from '@/components/sections/faq-section'
 
