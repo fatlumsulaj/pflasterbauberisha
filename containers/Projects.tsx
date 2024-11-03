@@ -13,7 +13,7 @@ export default function Projects({ id }: { id?: string }) {
             <h2 className="h2 text-center md:text-left">Referenzen</h2>
             <p className='text-[17px] md:text-lg text-black/80 max-w-lg mt-2 text-center md:text-left'>Sehen Sie sich unsere Projekte zu verschiedenen Pflasterbauleistungen an.</p>
           </div>
-          <Link href="/contact">
+          <Link href="/kontakt">
             <Button variant="secondary">Jetzt Kontakt aufnehmen</Button>
           </Link>
         </div>
