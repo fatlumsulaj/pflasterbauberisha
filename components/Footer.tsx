@@ -5,46 +5,73 @@ import { Copyright, Facebook, Instagram, Mail, Phone, Twitter } from 'lucide-rea
 
 const Footer = () => {
   return (
-    <footer className={`bg-neutral-950 text-white`}>
-      <div className="grid grid-cols-1 md:grid-cols-9 py-10 gap-8 max-w-[800px] mx-auto  px-6 md:px-8">
-        <div className='md:col-span-7'>
-          <Link href="/" className='flex flex-row gap-2 items-center justify-center md:justify-start'>
-            <img src="https://ik.imagekit.io/0s9lwb2yr/Pflasterbauberisha/pflasterbau-berisha-sm_uzrjr9xRE.png?updatedAt=1701891313295" alt='Pflasterbau Berisha' className='w-10 md:w-16' />
-            <h2 className='font-bold md:text-lg'>Pflasterbau Meisterbetrieb</h2>
-          </Link>
-          <p className='font-semibold text-center md:text-left  text-[18px] pt-4'>Sherif Berisha</p>
-          <a href="tel:+49 151 15231645" className='flex gap-2 items-center justify-center md:justify-start mt-4 font-medium'>
-            <Phone size={18} />
-            +49 151 15231645
-          </a>
-          <a href="mailto:sherifpflasterbaupassau@googlemail.com" className='flex gap-2 items-center justify-center md:justify-start mt-4 font-medium'>
-            <Mail size={18} />
-            sherifpflasterbaupassau@googlemail.com
-          </a>
-        </div>
-        <div className='md:col-span-2 flex flex-col items-center md:items-start'>
-          <h3 className='font-semibold md:text-lg'>Links</h3>
-          <ul className='mt-2 text-center md:text-left'>
-            <li className='my-2 text-[15px] text-neutral-300'>
-              <Link href="/#über-uns">Über uns</Link>
-            </li>
-
-            <li className='my-2 text-[15px] text-neutral-300'>
-              <Link href="/#leistungen">Leistungen</Link>
-            </li>
-            <li className='my-2 text-[15px] text-neutral-300'>
-              <Link href="/#faq">FAQ</Link>
-            </li>
-            <li className='my-2 text-[15px] text-neutral-300'>
-              <Link href="/kontakt">Kontakt</Link>
-            </li>
-            <li className='my-2 text-[15px] text-neutral-300'>
-              <Link href="/impressum">Impressum</Link>
-            </li>
-            <li className='my-2 text-[15px] text-neutral-300'>
-              <Link href="/datenschutz">Datenschutz</Link>
-            </li>
-          </ul>
+    <footer>
+      <div className="px-4 md:px-8 bg-neutral-950 text-white py-8">
+        <div className="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className='md:col-span-2'>
+            <Link href="/" className='inline-flex gap-x-2 items-center font-semibold text-lg md:text-xl'>
+              <img src="../pflasterbau-berisha-sm.png" width="202px" height="121px" className='max-h-[40px] w-auto' loading="lazy" alt="BS Pflasterbau Meisterbetrieb" />
+              Pflasterbau Meisterbetrieb
+            </Link>
+            <p className='font-semibold paragraph mt-2'>Sherif Berisha</p>
+            <a href="+49 1511 5231645" className='flex items-center gap-x-2 mt-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-5 min-h-5 w-5 h-5">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+            </svg>
+              +49 1511 5231645</a>
+            <a href="mailto:sherifpflasterbaupassau@googlemail.com" className='flex items-center gap-x-2 mt-2'>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-5 min-h-5 w-5 h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+              </svg>
+              sherifpflasterbaupassau@googlemail.com
+            </a>
+            <a href="https://maps.app.goo.gl/BE8Nkdb5HZnKkft17" className='flex items-center gap-x-2 mt-2'>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-5 min-h-5 w-5 h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+              </svg>
+              Passauer Str. 88b, 94121 Salzweg, Germany
+            </a>
+          </div>
+          <div>
+            <div className='font-semibold text-lg'>Links</div>
+            <ul className='text-white/90'>
+              <li className='my-2'>
+                <Link href="/">Startseite</Link>
+              </li>
+              <li className='my-2'>
+                <Link href="/#ueber-uns">Über uns</Link>
+              </li>
+              <li className='my-2'>
+                <Link href="/#leistungen">Leistungen</Link>
+              </li>
+              <li className='my-2'>
+                <Link href="/#referenzen">Referenzen</Link>
+              </li>
+              <li className='my-2'>
+                <Link href="/kontakt">Kontakt</Link>
+              </li>
+              <li className='my-2'>
+                <Link href="/impressum">Impressum</Link>
+              </li>
+              <li className='my-2'>
+                <Link href="/datenschutz">Datenschutz</Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div className='font-semibold text-lg'>Städte</div>
+            <ul className='text-white/90'>
+              <li className='my-2'>
+                <Link href="/">Passau</Link>
+              </li>
+              <li className='my-2'>
+                <Link href="/muenchen">München</Link>
+              </li>
+              <li className='my-2'>
+                <Link href="/regensburg">Regensburg</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className='bg-black text-neutral-200 hidden md:flex gap-x-2 py-4 justify-center'>

@@ -5,7 +5,7 @@ import { Separator } from "@/components/ui/separator";
 const About = () => {
   return (
     <>
-      <section id="über-uns" className="px-4 md:px-8 bg-neutral-100 py-10 md:py-14 lg:py-20">
+      <section id="ueber-uns" className="px-4 md:px-8 bg-neutral-100 py-10 md:py-14 lg:py-20">
         <div className="max-w-screen-web mx-auto flex flex-col lg:flex-row items-center gap-6">
           <div className="w-full lg:w-1/2">
             <h2 className="h2 text-center lg:text-left">Wer wir sind</h2>
