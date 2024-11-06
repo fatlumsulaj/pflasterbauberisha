@@ -11,7 +11,7 @@ import FaqSection from '@/components/sections/faq-section'
 
 export const metadata: Metadata = {
   title: "Pflasterbau in Regensburg - Berisha Pflasterbau",
-  description: "Ihr erfahrener Partner für langlebige und ästhetische Pflasterarbeiten, perfekt abgestimmt auf die Anforderungen Regensburgs.",
+  description: "Ihr erfahrener Partner für langlebige und ästhetische Pflasterarbeiten, perfekt abgestimmt auf die Anforderungen in Regensburg.",
   alternates: {
     canonical: "https://www.berisha-pflasterbau.de/regensburg"
   }
@@ -22,7 +22,7 @@ export default function Regensburg() {
     <main>
       <HeroSection
         h1="Pflasterbau in Regensburg"
-        subHeadline="Ihr erfahrener Partner für langlebige und ästhetische Pflasterarbeiten, perfekt abgestimmt auf die Anforderungen Regensburgs."
+        subHeadline="Ihr erfahrener Partner für langlebige und ästhetische Pflasterarbeiten, perfekt abgestimmt auf die Anforderungen in Regensburg."
         cta={{ link: '/kontakt', label: 'Jetzt anfragen' }}
         imageProps={{
           src: "https://ik.imagekit.io/utnmvphg1/Berisha%20Pflasterbau/tr:w-1800/pflasterbauhintergrund.webp",

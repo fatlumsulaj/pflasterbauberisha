@@ -62,7 +62,7 @@ const Footer = () => {
             <div className='font-semibold text-lg'>Städte</div>
             <ul className='text-white/90'>
               <li className='my-2'>
-                <Link href="/">Passau</Link>
+                <Link href="/passau">Passau</Link>
               </li>
               <li className='my-2'>
                 <Link href="/muenchen">München</Link>

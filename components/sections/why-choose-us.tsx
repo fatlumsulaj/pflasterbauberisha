@@ -15,12 +15,12 @@ export default function WhyChooseUs() {
           <div className="basis-full md:basis-1/2 lg:basis-1/3 px-4">
             <PencilRuler className='text-primary w-10 h-10 lg:w-12 lg:h-12' />
             <h3 className="text-lg md:text-xl xl:text-2xl font-semibold mt-2 lg:mt-4">Individuelle Lösungen</h3>
-            <p className='text-black/80 mt-2'>Jedes Projekt passen wir individuell an die Anforderungen und das Stadtbild Münchens an.</p>
+            <p className='text-black/80 mt-2'>Jedes Projekt passen wir individuell an die Anforderungen und das jeweilige Umfeld an.</p>
           </div>
           <div className="basis-full md:basis-1/2 lg:basis-1/3 px-4">
             <UsersRound className='text-primary w-10 h-10 lg:w-12 lg:h-12' />
             <h3 className="text-lg md:text-xl xl:text-2xl font-semibold mt-2 lg:mt-4">Verlässlicher Kundenservice</h3>
-            <p className='text-black/80 mt-2'>Als Ihr kompetenter Partner betreuen wir Projekte in ganz München, stets kundenorientiert und präzise.</p>
+            <p className='text-black/80 mt-2'>Als Ihr kompetenter Partner betreuen wir Projekte stets kundenorientiert und mit höchster Präzision.</p>
           </div>
         </div>
       </div>
