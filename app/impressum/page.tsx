@@ -24,7 +24,7 @@ export default function Impressum() {
           <p className="text-[17px]">
             Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
           </p>
-          <p className="text-[17px]">Nicht vorhanden</p>
+          <p className="text-[17px]">153/204/40448</p>
         </div>
         <div>
           <h2 className="h3 mt-7 mb-2">EU-Streitschlichtung</h2>
