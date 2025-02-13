@@ -49,7 +49,7 @@ export default function AboutSection({ title, subHeadline, cta, paragraphs }: Ab
           </Link>
         </div>
         <div className='mx-auto relative w-full md:w-auto md:hidden lg:block'>
-          <img src="https://ik.imagekit.io/utnmvphg1/Berisha%20Pflasterbau/tr:w-420/pflasterbau?updatedAt=1730233913637" width="420px" height="279px" alt="Pflasterbau" className='w-full md:w-auto' />
+          <img src="../images/projekt5.jpg" alt="Pflasterbau" className='w-full md:w-auto max-w-lg' />
           <div className="hidden md:block w-full h-full absolute top-4 left-4 bg-primary -z-10"></div>
         </div>
       </div>

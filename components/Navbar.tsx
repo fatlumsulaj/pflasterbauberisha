@@ -92,7 +92,7 @@ function Mobile({ isOpened, close }: { isOpened: boolean, close: () => void }) {
             <X size={30} />
           </button>
           <h2 className='font-bold text-md lg:text-2xl'>
-            <Link href="/df" className='flex flex-col gap-4 flex-wrap justify-center items-center'>
+            <Link href="/" className='flex flex-col gap-4 flex-wrap justify-center items-center'>
               <h2>Pflasterbau Meisterbetrieb</h2>
               <Image src="/pflasterbau-berisha-sm.png" alt='src' width={85} height={85} />
 
