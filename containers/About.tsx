@@ -44,7 +44,7 @@ const About = () => {
             <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left">Wir bei BS Pflasterbau zeichnen uns durch präzise Handwerkskunst, erstklassige Qualität und umfassende Erfahrung im Pflasterbau aus. Unsere Hingabe für exzellente Arbeit spiegelt sich in jedem Projekt wieder.</p>
             <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left mt-4">Wir verstehen die Einzigartigkeiten jeder Region und nutzen dieses Wissen, um Ihr Projekt zu etwas Besonderem zu machen. Entscheiden Sie sich für BS Pflasterbau, wenn Sie unkomplizierte Handwerkskunst, Fachwissen und beeindruckende Ergebnisse wünschen - eine Partnerschaft, auf die Sie zählen können.</p>
             <div className="flex justify-center lg:justify-start">
-              <ul className="inline-grid grid-cols-2 mt-4 gap-x-4 gap-y-2">
+              <ul className="inline-grid grid-cols-2 mt-4 gap-x-4 gap-ynpm-2">
                 {["Erfahrung", "Zuverlässigkeit", "Kundenservice", "Qualität", "Kreativität", "Effizienz"].map(quality => (
                   <li key={quality} className="flex items-center gap-x-2 text-[17px] md:text-lg text-black/80">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-primary">
