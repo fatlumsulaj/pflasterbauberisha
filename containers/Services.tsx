@@ -13,7 +13,7 @@ const Services = () => {
             <img src="https://ik.imagekit.io/inowebagentur/Berisha%20Pflasterbau/glasfaser-stromkabel?updatedAt=1748552097006" alt="Glasfaser- & Stromkabel" className='w-16 h-16  max-w-[64px]' />
             <div>
               <h3 className='text-lg sm:text-xl font-semibold mt-4'>Glasfaser- & Stromkabel</h3>
-              <p className='text-white/80 mt-2 max-w-xl'>Natursteinpflaster ist ideal für historische und moderne Projekte. Es verleiht Einfahrten, Gehwegen und Terrassen einen zeitlosen und edlen Look, der den besonderen Charme der Umgebung unterstreicht.</p>
+              <p className='text-white/80 mt-2 max-w-xl'>Im Rahmen unserer Tiefbauleistungen übernehmen wir die fachgerechte Verlegung von Glasfaser- und Stromkabeln. Präzise Ausführung und Einhaltung aller technischen Standards gewährleisten eine zuverlässige Infrastruktur.</p>
             </div>
           </div>
           <div className="bg-neutral-900 text-white p-6 md:p-8 lg:p-10">
