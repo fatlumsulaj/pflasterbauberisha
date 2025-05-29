@@ -10,7 +10,7 @@ import {
 
 export default function Faq() {
   return (
-    <section className="px-4 md:px-8 mb-10 md:mb-14 lg:mb-20">
+    <section className="px-4 md:px-8 mb-10 md:mb-14 lg:mb-20" id="faq">
       <div className="max-w-screen-web mx-auto">
         <h2 className="h2">Häufig gestellte Fragen</h2>
         <Accordion className='mt-6' type="single" collapsible>

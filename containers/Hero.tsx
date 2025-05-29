@@ -39,8 +39,8 @@ const Hero = () => {
             </p>
             <div className="flex justify-start gap-2">
               <Button size="lg">
-                <Link href="/#ueber-uns">
-                  Über uns
+                <Link href="/kontakt">
+                  Jetzt anfragen
                 </Link>
               </Button>
             </div>
