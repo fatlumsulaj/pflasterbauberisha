@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <section id="leistungen" className='pb-10 md:pb-14 lg:pb-20 bg-neutral-950'>
       <div className="background2 text-white pt-20 pb-32">
-        <h2 className="h2 text-center">Unsere Pflasterbau Leistungen</h2>
+        <h2 className="h2 text-center">Unsere Pflasterbau und Tiefbau Leistungen</h2>
         <p className='text-[17px] md:text-lg text-white/80 text-center max-w-lg mx-auto mt-2'>Entdecken Sie die vielfältigen Leistungen unseres Unternehmens und lassen Sie sich von unserer Expertise überzeugen!</p>
       </div>
       <div className="px-4 md:px-8">

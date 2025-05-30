@@ -9,7 +9,7 @@ export default function ServicesSection({ title, services }: ServicesProps) {
   return (
     <section id="leistungen" className='pb-10 md:pb-14 lg:pb-20 bg-neutral-950'>
       <div className="background2 text-white pt-20 pb-32">
-        <h2 className="h2 text-center">{title}</h2>
+        <h2 className="h2 text-center">Unsere Pflasterbau und Tiefbau Leistungen</h2>
       </div>
       <div className="px-4 md:px-8">
         <div className="max-w-screen-web mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 -mt-20">
