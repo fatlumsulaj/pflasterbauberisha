@@ -10,7 +10,7 @@ import Contact from '@/containers/Contact'
 import FaqSection from '@/components/sections/faq-section'
 
 export const metadata: Metadata = {
-  title: "Pflasterbau in Passau - Berisha Pflasterbau",
+  title: "Pflaster- & Tiefbau in Passau - Berisha Pflasterbau",
   description: "Ihr erfahrener Partner für maßgeschneiderte Pflasterarbeiten in Passau, optimal angepasst an die individuellen Gegebenheiten unserer Stadt.",
   alternates: {
     canonical: "https://www.berisha-pflasterbau.de/passau"
@@ -21,7 +21,7 @@ export default function Passau() {
   return (
     <main>
       <HeroSection
-        h1="Pflasterbau in Passau"
+        h1="Pflaster- & Tiefbau in in Passau"
         subHeadline="Ihr erfahrener Partner für maßgeschneiderte Pflasterarbeiten in Passau, optimal angepasst an die individuellen Gegebenheiten unserer Stadt."
         cta={{ link: '/kontakt', label: 'Jetzt anfragen' }}
         imageProps={{

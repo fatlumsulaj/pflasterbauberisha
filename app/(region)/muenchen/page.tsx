@@ -10,7 +10,7 @@ import Contact from '@/containers/Contact'
 import FaqSection from '@/components/sections/faq-section'
 
 export const metadata: Metadata = {
-  title: "Pflasterbau in München - Berisha Pflasterbau",
+  title: "Pflaster- & Tiefbau in München - Berisha Pflasterbau",
   description: "Ihr erfahrener Partner für maßgeschneiderte Pflasterarbeiten in München, abgestimmt auf die individuellen Anforderungen unserer Stadt.",
   alternates: {
     canonical: "https://www.berisha-pflasterbau.de/muenchen"
@@ -21,7 +21,7 @@ export default function Muenchen() {
   return (
     <main>
       <HeroSection
-        h1="Pflasterbau in München"
+        h1="Pflaster- & Tiefbau in München"
         subHeadline="Ihr erfahrener Partner für maßgeschneiderte Pflasterarbeiten in München, abgestimmt auf die individuellen Anforderungen unserer Stadt."
         cta={{ link: '/kontakt', label: 'Jetzt anfragen' }}
         imageProps={{

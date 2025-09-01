@@ -19,7 +19,7 @@ export default function Faq() {
             <AccordionContent>Ein Pflasterbauprojekt kann je nach Größe und Komplexität variieren. Kleinere Projekte können innerhalb weniger Tage abgeschlossen werden, während größere Projekte mehrere Wochen dauern können.</AccordionContent>
           </AccordionItem>
           <AccordionItem value="2">
-            <AccordionTrigger>Welche Städte deckt BS Pflasterbau an?</AccordionTrigger>
+            <AccordionTrigger>Welche Städte deckt BS Pflaster- & Tiefbau an?</AccordionTrigger>
             <AccordionContent>Wir decken verschiedene Städte in Bayern ab, darunter München, Nürnberg, Augsburg, Regensburg und viele andere.</AccordionContent>
           </AccordionItem>
           <AccordionItem value="3">

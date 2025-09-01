@@ -10,7 +10,7 @@ const About = () => {
           <div className="w-full lg:w-1/2">
             <h2 className="h2 text-center lg:text-left">Wer wir sind</h2>
             <Separator className="w-1/3 max-w-[60px] h-1 border-none bg-primary mt-3 mb-4 mx-auto lg:mx-0" />
-            <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left">BS Pflasterbau Meisterbetrieb ist ein etablierter Meisterbetrieb mit über 20 Jahren Erfahrung im Pflasterbau. Unsere beeindruckende Erfolgsbilanz von über 1000 Projekten spiegelt unsere Fachkompetenz und Hingabe wieder. Mit stolzen 90% unserer Projekte im Herzen Münchens und in ganz Bayern sind wir Ihr verlässlicher Partner für hochwertige Pflaster- und Gartenbauarbeiten.</p>
+            <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left">BS Pflaster- & Tiefbau Meisterbetrieb ist ein etablierter Meisterbetrieb mit über 20 Jahren Erfahrung im Pflasterbau & Tiefbau. Unsere beeindruckende Erfolgsbilanz von über 1000 Projekten spiegelt unsere Fachkompetenz und Hingabe wieder. Mit stolzen 90% unserer Projekte im Herzen Münchens und in ganz Bayern sind wir Ihr verlässlicher Partner für hochwertige Pflaster- und Gartenbauarbeiten.</p>
             <p className="text-[17px] md:text-lg text-black/80 mt-4 text-center lg:text-left">
               Unsere Unterstützung beginnt bei der individuellen Beratung und erstreckt sich bis zur Durchführung, mit jahrelanger Kompetenz und pünktlicher Umsetzung zu einem fairen Preis. Wir sind spezialisiert auf Park- und Hofflächen, Straßen, Einfahrten, Terrassen und alle weiteren Pflasterbauarbeiten. Kontaktieren Sie uns jederzeit per E-Mail, über diese Website, telefonisch oder persönlich, um Ihre Anliegen schnell und zielgerichtet zu lösen.
             </p>
@@ -41,7 +41,7 @@ const About = () => {
             <h2 className="h2 text-center lg:text-left">Warum Sie uns wählen sollten
             </h2>
             <Separator className="w-1/3 max-w-[60px] h-1 border-none bg-primary mt-3 mb-4 mx-auto lg:mx-0" />
-            <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left">Wir bei BS Pflasterbau zeichnen uns durch präzise Handwerkskunst, erstklassige Qualität und umfassende Erfahrung im Pflasterbau aus. Unsere Hingabe für exzellente Arbeit spiegelt sich in jedem Projekt wieder.</p>
+            <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left">Wir bei BS Pflaster- & Tiefbau zeichnen uns durch präzise Handwerkskunst, erstklassige Qualität und umfassende Erfahrung im Pflasterbau & Tiefbau aus. Unsere Hingabe für exzellente Arbeit spiegelt sich in jedem Projekt wieder.</p>
             <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left mt-4">Wir verstehen die Einzigartigkeiten jeder Region und nutzen dieses Wissen, um Ihr Projekt zu etwas Besonderem zu machen. Entscheiden Sie sich für BS Pflasterbau, wenn Sie unkomplizierte Handwerkskunst, Fachwissen und beeindruckende Ergebnisse wünschen - eine Partnerschaft, auf die Sie zählen können.</p>
             <div className="flex justify-center lg:justify-start">
               <ul className="inline-grid grid-cols-2 mt-4 gap-x-4 gap-ynpm-2">
