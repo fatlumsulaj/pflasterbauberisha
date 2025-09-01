@@ -42,11 +42,11 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <nav className={`bg-neutral-950 z-50 w-full px-5 text-white`}>
+      <nav className={`bg-neutral-950 z-50 w-full px-5 text-white py-2`}>
         <div className="h-full flex justify-between items-center w-full max-w-screen-xl mx-auto">
           <h2 className='font-semibold text-md lg:text-2xl'>
             <Link href="/" className='flex flex-row flex-wrap justify-center gap-2 items-center'>
-              <img src="https://ik.imagekit.io/inowebagentur/Berisha%20Pflasterbau/bs-pflaster-tiefbau?updatedAt=1756739555240" alt="Berisha Pflaster- & Tiefbau" className='max-h-[100px] lg:max-h-[120px]' />
+              <img src="https://ik.imagekit.io/inowebagentur/Berisha%20Pflasterbau/bs-pflaster-tiefbau?updatedAt=1756739555240" alt="Berisha Pflaster- & Tiefbau" className='max-h-[90px] lg:max-h-[120px]' />
               {/* <Image src="/pflasterbau-berisha-sm.png" alt='src' width={75} height={75} />
               <h2 className='hidden md:block'>Pflasterbau Meisterbetrieb</h2> */}
             </Link>
