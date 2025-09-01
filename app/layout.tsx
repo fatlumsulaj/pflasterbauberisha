@@ -13,7 +13,7 @@ import Typebot from '@/components/typebot'
 const default_font = Figtree({ subsets: ['latin'], display: 'swap' })
 
 export const metadata: Metadata = {
-  title: 'BS Pflasterbau Meisterbetrieb',
+  title: 'BS Pflaster- & Tiefbau Meisterbetrieb',
   description: 'Ihrem zuverlässigen Partner für hochwertige Pflasterarbeiten und kreative Gestaltung im Außenbereich. Entdecken Sie unsere umfassende Expertise...',
   keywords: ["Berisha Pflasterbau", "BS Pflasterbau", "Sherif Berisha", "Pflasterbau Munich", "Pflasterbau Passau"]
 }

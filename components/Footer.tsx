@@ -10,8 +10,9 @@ const Footer = () => {
         <div className="max-w-screen-lg mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className='md:col-span-2'>
             <Link href="/" className='inline-flex gap-x-2 items-center font-semibold text-lg md:text-xl'>
-              <img src="../pflasterbau-berisha-sm.png" width="202px" height="121px" className='max-h-[40px] w-auto' loading="lazy" alt="BS Pflasterbau Meisterbetrieb" />
-              Pflasterbau Meisterbetrieb
+              {/* <img src="../pflasterbau-berisha-sm.png" width="202px" height="121px" className='max-h-[40px] w-auto' loading="lazy" alt="BS Pflasterbau Meisterbetrieb" />
+              Pflasterbau Meisterbetrieb */}
+              <img src="https://ik.imagekit.io/inowebagentur/Berisha%20Pflasterbau/bs-pflaster-tiefbau?updatedAt=1756739555240" alt="Berisha Pflaster- & Tiefbau" className='max-h-[100px]' />
             </Link>
             <p className='font-semibold paragraph mt-2'>Sherif Berisha</p>
             <a href="tel:+49 1511 5231645" className='flex items-center gap-x-2 mt-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="min-w-5 min-h-5 w-5 h-5">
