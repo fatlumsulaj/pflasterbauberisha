@@ -94,9 +94,7 @@ function Mobile({ isOpened, close }: { isOpened: boolean, close: () => void }) {
           </button>
           <h2 className='font-bold text-md lg:text-2xl'>
             <Link href="/" className='flex flex-col gap-4 flex-wrap justify-center items-center'>
-              <h2>Pflasterbau Meisterbetrieb</h2>
-              <Image src="/pflasterbau-berisha-sm.png" alt='src' width={85} height={85} />
-
+              <img src="https://ik.imagekit.io/inowebagentur/Berisha%20Pflasterbau/bs-pflaster-tiefbau?updatedAt=1756739555240" alt="Berisha Pflaster- & Tiefbau" className='max-h-[90px] lg:max-h-[120px]' />
             </Link>
           </h2>
           <ul className='flex flex-col justify-center mt-8 gap-6 items-center'>
