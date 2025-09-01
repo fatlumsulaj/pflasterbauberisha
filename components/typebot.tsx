@@ -8,7 +8,7 @@ export default function Typebot() {
       previewMessage={{
         message: 'Jetzt eine Nachricht senden!',
         autoShowDelay: 5000,
-        avatarUrl: 'https://ik.imagekit.io/utnmvphg1/berisha%20pflasterbau%20logo%20square?updatedAt=1730059046042',
+        avatarUrl: 'https://ik.imagekit.io/inowebagentur/Berisha%20Pflasterbau/bs-pflaster-tiefbau?updatedAt=1756739555240',
       }}
       theme={{
         button: { backgroundColor: '#0042DA', iconColor: '#FFFFFF' },
