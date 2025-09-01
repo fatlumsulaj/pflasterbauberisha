@@ -33,7 +33,7 @@ const Hero = () => {
             </button>
           </div>
           <div className="max-w-screen-web mx-auto">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white text-left pb-3 xl:text-6xl">Berisha Pflasterbau Meisterbetrieb</h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white text-left pb-3 xl:text-6xl">Berisha Pflaster- & Tiefbau Meisterbetrieb</h1>
             <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left hover:cursor-text">
               Ihrem zuverlässigen Partner für hochwertige Pflasterarbeiten und kreative Gestaltung im Außenbereich. Entdecken Sie unsere umfassende Expertise und lassen Sie uns gemeinsam Ihr individuelles Projekt realisieren.
             </p>
@@ -103,7 +103,7 @@ const Hero = () => {
             </button>
           </div>
           <div className="max-w-screen-web mx-auto">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white text-left pb-3 xl:text-6xl">Pflasterbau aus Leidenschaft</h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white text-left pb-3 xl:text-6xl">Pflaster- & Tiefbau aus Leidenschaft</h1>
             <p className="max-w-[600px] text-white paragraph-sm mb-4 text-left hover:cursor-text">
               Unsere Hingabe für exzellente Pflasterarbeiten spiegelt sich in jedem Projekt wider. Bei Berisha Pflasterbau vereinen wir Fachkenntnisse mit Leidenschaft, um einzigartige und langlebige Ergebnisse zu schaffen.
             </p>
