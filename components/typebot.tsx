@@ -11,7 +11,7 @@ export default function Typebot() {
         avatarUrl: 'https://ik.imagekit.io/inowebagentur/Berisha%20Pflasterbau/bs-pflaster-tiefbau?updatedAt=1756739555240',
       }}
       theme={{
-        button: { backgroundColor: '#0042DA', iconColor: '#FFFFFF' },
+        button: { backgroundColor: '#000000', iconColor: '#FFFFFF' },
         previewMessage: { backgroundColor: '#ffffff', textColor: 'black' },
       }}
     />
