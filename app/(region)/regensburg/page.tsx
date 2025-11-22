@@ -40,7 +40,7 @@ export default function Regensburg() {
       />
       <AboutSection
         subHeadline="Über uns"
-        title="Ihr Fachbetrieb für Pflasterarbeiten in Regensburg"
+        title="Ihr Fachbetrieb für Pflasterarbeiten & Tiefbau in Regensburg"
         cta={{
           label: 'Projekte ansehen',
           link: '#projekte'
