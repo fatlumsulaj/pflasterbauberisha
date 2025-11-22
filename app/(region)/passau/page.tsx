@@ -40,7 +40,7 @@ export default function Passau() {
       />
       <AboutSection
         subHeadline="Über uns"
-        title="Qualität und Erfahrung direkt in Passau"
+        title="Ihr Fachbetrieb für Pflasterarbeiten & Tiefbau in Passau"
         cta={{
           label: 'Projekte ansehen',
           link: '#projekte'
