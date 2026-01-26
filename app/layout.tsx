@@ -4,10 +4,11 @@ import './globals.css'
 import { Figtree } from 'next/font/google'
 import { Suspense } from 'react'
 
-import CookieBanner from '@/components/cookie-banner'
+import CookieBanner from '@/components/analytics/banner'
+import GoogleAnalytics from '@/components/analytics/google-analytics'
+
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-import GoogleAnalytics from './GoogleAnalytics'
 import Typebot from '@/components/typebot'
 
 const default_font = Figtree({ subsets: ['latin'], display: 'swap' })
@@ -25,15 +26,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Suspense fallback={<></>}>
-        <GoogleAnalytics GA_MEASUREMENT_ID='G-TT49HEHZHM' />
-      </Suspense>
       <body className={default_font.className}>
         <Navbar />
         {children}
         <Footer />
-        <Typebot />
+        {/* <Typebot /> */}
         <CookieBanner />
+        <GoogleAnalytics GA_MEASUREMENT_ID='G-TT49HEHZHM' />
       </body>
     </html>
   )

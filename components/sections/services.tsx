@@ -1,7 +1,7 @@
 import React from 'react'
 
 type ServicesProps = {
-  title: string;
+  title?: string;
   services: { title: string; description: string }[]
 }
 

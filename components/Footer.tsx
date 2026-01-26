@@ -71,6 +71,9 @@ const Footer = () => {
               <li className='my-2'>
                 <Link href="/regensburg">Regensburg</Link>
               </li>
+              <li className='my-2'>
+                <Link href="/amberg">Amberg</Link>
+              </li>
             </ul>
           </div>
         </div>
