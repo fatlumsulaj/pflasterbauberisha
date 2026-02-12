@@ -8,7 +8,7 @@ export default function Impressum() {
         <h1 className="h1 mb-6">Impressum</h1>
         <div>
           <p className="text-[17px]">Sherif Berisha</p>
-          <p>BS Pflasterbau Meisterbetrieb</p>
+          <p>BS Pflaster- & Tiefbau Meisterbetrieb</p>
           <p className="text-[17px]">Passauer Str. 88b</p>
           <p className="text-[17px]">94121 Salzweg</p>
           <p className="text-[17px]">Deutschland</p>
