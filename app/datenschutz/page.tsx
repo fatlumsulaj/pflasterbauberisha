@@ -160,7 +160,7 @@ export default function Datenschutz() {
           Website ist:
         </p>{" "}
         <p className="text-[17px]">
-          BS Pflasterbau Meisterbetrieb
+          BS Pflaster- & Tiefbau Meisterbetrieb
           <br />
           Passauer Str. 88b
           <br />
