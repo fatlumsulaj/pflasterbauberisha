@@ -24,8 +24,8 @@ module.exports = {
         'smaller': '1140px'
       },
       colors: {
-        "mikado": "#ffc300",
-        "primary": '#ffc300',
+        "mikado": "#005BA0",
+        "primary": '#005BA0',
         "sunglow": "#ffce3e",
         "main1": "#fee856",
         "main2": "#ffce3e;"

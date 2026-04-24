@@ -9,8 +9,8 @@
 }
 
 ::selection {
-  color: black;
-  background: #ffd64f;
+  color: white;
+  background: #003966;
 }
 
 .background1 {
@@ -76,13 +76,13 @@
 }
 
 .text-color {
-  color: #ffce3e;
+  color: #003966;
 }
 
 .background-color1 {
-  background-color: #fee856;
+  background-color: #003966;
 }
 
 .background-color2 {
-  background-color: #ffce3e;
+  background-color: #003966;
 }

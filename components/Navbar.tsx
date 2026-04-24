@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className='hidden lg:block bg-mikado px-4 py-4'>
+      <nav className='hidden lg:block bg-mikado text-white px-4 py-4'>
         <div className="max-w-screen-web mx-auto flex justify-end gap-x-6">
           <div className='flex items-center gap-x-2 font-medium'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="min:w-5 w-5 h-5 min:h-5">
@@ -112,7 +112,7 @@ function Mobile({ isOpened, close }: { isOpened: boolean, close: () => void }) {
             </li>
             <li>
               <Link onClick={close} href="/kontakt">
-                <Button id="contact" className='bg-[#fee856] hover:bg-[#ffce3e] text-black font-bold'>
+                <Button id="contact">
                   Kontakt
                 </Button>
               </Link>

@@ -49,21 +49,21 @@ export default function Contact() {
     // </section>
     <section id="contact">
       <div className="max-w-screen-web mx-auto flex justify-end md:px-8 lg:-mb-[500px]">
-        <div className="p-7 md:p-10 relative z-10 bg-mikado w-full lg:max-w-lg">
+        <div className="p-7 md:p-10 relative z-10 bg-mikado text-white w-full lg:max-w-lg">
           <h2 className='h2'>Uns kontaktieren</h2>
           <form action="https://formspree.io/f/mdoqoenb">
             <div className='my-4'>
               <Label>Name</Label>
-              <Input name="name" className='border-black/30 mt-1 bg-transparent' />
+              <Input name="name" className='border-white/30 mt-1 bg-transparent placeholder:text-white/90' placeholder='Name' />
             </div>
             <div className="my-4">
               <Label>Email</Label>
-              <Input name="email" className='border-black/30 mt-1 bg-transparent' />
+              <Input name="email" className='border-white/30 mt-1 bg-transparent placeholder:text-white/90' placeholder='Email' />
             </div>
             <div className='my-4'>
               <Label htmlFor="service">Leistung</Label>
               <Select name="leistung">
-                <SelectTrigger name="leistung" className='w-full bg-transparent border-black/30 mt-1 placeholder:text-black'>
+                <SelectTrigger name="leistung" className='w-full bg-transparent border-white/30 mt-1 placeholder:text-white/90'>
                   <SelectValue placeholder="Leistung auswählen" />
                 </SelectTrigger>
                 <SelectContent>
@@ -75,7 +75,7 @@ export default function Contact() {
             </div>
             <div>
               <Label htmlFor="nachricht">Nachricht</Label>
-              <Textarea className='bg-transparent border-black/30 mt-1 placeholder:text-black' id="nachricht" name="nachricht" placeholder='Nachricht schreiben' />
+              <Textarea className='bg-transparent border-white/30 mt-1 placeholder:text-white/90' id="nachricht" name="nachricht" placeholder='Nachricht schreiben' />
             </div>
             <Button variant="secondary" size="lg" className='w-full mt-4'>
               Einreichen
