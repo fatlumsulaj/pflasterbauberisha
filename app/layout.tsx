@@ -36,7 +36,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={default_font.className}>
         <Script
-          defer
           src="https://umami-analytics.inoweb-agentur.de/script.js"
           data-website-id="fe1008e7-18b9-4fe8-9d2b-cb0e2ac51f99"
           strategy="beforeInteractive"
