@@ -47,7 +47,7 @@ export default function ContactPage() {
           </div>
         </div>
         <div className='flex items-center justify-center px-10 py-6'>
-          <form action="https://formspree.io/f/mdoqoenb" className="w-full max-w-2xl mx-auto">
+          <form action="https://formspree.io/f/mdoqoenb" method="POST" className="w-full max-w-2xl mx-auto">
             <div className='my-4'>
               <Label htmlFor="name">Name</Label>
               <Input name="name" placeholder="Fügen Sie Ihren Namen ein" />

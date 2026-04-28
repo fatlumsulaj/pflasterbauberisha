@@ -51,7 +51,7 @@ export default function Contact() {
       <div className="max-w-screen-web mx-auto flex justify-end md:px-8 lg:-mb-[500px]">
         <div className="p-7 md:p-10 relative z-10 bg-mikado text-white w-full lg:max-w-lg">
           <h2 className='h2'>Uns kontaktieren</h2>
-          <form action="https://formspree.io/f/mdoqoenb">
+          <form action="https://formspree.io/f/mdoqoenb" method="POST">
             <div className='my-4'>
               <Label>Name</Label>
               <Input name="name" className='border-white/30 mt-1 bg-transparent placeholder:text-white/90' placeholder='Name' />
