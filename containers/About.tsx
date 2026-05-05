@@ -5,27 +5,41 @@ import { Separator } from "@/components/ui/separator";
 const About = () => {
   return (
     <>
-      <section id="ueber-uns" className="px-4 md:px-8 bg-neutral-100 py-10 md:py-14 lg:py-20">
+      <section
+        id="ueber-uns"
+        className="px-4 md:px-8 bg-neutral-100 py-10 md:py-14 lg:py-20"
+      >
         <div className="max-w-screen-web mx-auto flex flex-col lg:flex-row items-center gap-6">
           <div className="w-full lg:w-1/2">
             <h2 className="h2 text-center lg:text-left">Wer wir sind</h2>
             <Separator className="w-1/3 max-w-[60px] h-1 border-none bg-primary mt-3 mb-4 mx-auto lg:mx-0" />
-            <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left">BS Pflaster- & Tiefbau Meisterbetrieb ist ein etablierter Meisterbetrieb mit über 20 Jahren Erfahrung im Pflasterbau & Tiefbau. Unsere beeindruckende Erfolgsbilanz von über 1000 Projekten spiegelt unsere Fachkompetenz und Hingabe wieder. Mit stolzen 90% unserer Projekte im Herzen Münchens und in ganz Bayern sind wir Ihr verlässlicher Partner für hochwertige Pflaster- und Gartenbauarbeiten.</p>
+            <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left">
+              BS Pflaster- & Tiefbau Meisterbetrieb ist ein etablierter
+              Meisterbetrieb mit über 20 Jahren Erfahrung im Pflasterbau &
+              Tiefbau. Unsere beeindruckende Erfolgsbilanz von über 1000
+              Projekten spiegelt unsere Fachkompetenz und Hingabe wieder. Mit
+              stolzen 90% unserer Projekte im Herzen Münchens und in ganz Bayern
+              sind wir Ihr verlässlicher Partner für hochwertige Pflaster- und
+              Tiefbauarbeiten.
+            </p>
             <p className="text-[17px] md:text-lg text-black/80 mt-4 text-center lg:text-left">
-              Unsere Unterstützung beginnt bei der individuellen Beratung und erstreckt sich bis zur Durchführung, mit jahrelanger Kompetenz und pünktlicher Umsetzung zu einem fairen Preis. Wir sind spezialisiert auf Park- und Hofflächen, Straßen, Einfahrten, Terrassen und alle weiteren Pflasterbauarbeiten sowie Tiefbauarbeiten. Kontaktieren Sie uns jederzeit per E-Mail, über diese Website, telefonisch oder persönlich, um Ihre Anliegen schnell und zielgerichtet zu lösen.
+              Unsere Unterstützung beginnt bei der individuellen Beratung und
+              erstreckt sich bis zur Durchführung, mit jahrelanger Kompetenz und
+              pünktlicher Umsetzung zu einem fairen Preis. Wir sind
+              spezialisiert auf Park- und Hofflächen, Straßen, Einfahrten,
+              Terrassen und alle weiteren Pflasterbauarbeiten sowie
+              Tiefbauarbeiten. Kontaktieren Sie uns jederzeit per E-Mail, über
+              diese Website, telefonisch oder persönlich, um Ihre Anliegen
+              schnell und zielgerichtet zu lösen.
             </p>
           </div>
           <div className="w-full lg:w-1/2">
             <div className="w-full relative max-w-sm lg:max-w-md mx-auto">
-              <img className="max-w-full relative z-30"
-
-                src="../images/ueberunsw680.webp"
-                srcSet="../images/ueberunsw480.webp 480w, ../images/ueberunsw680.webp 680w"
-                sizes="(max-width: 640px) 480px,
-                680px"
-                width="680px"
-                height="452px"
-                alt="Über uns" />
+              <img
+                className="max-w-full relative z-30"
+                src="https://ik.imagekit.io/inowebagentur/Berisha%20Pflasterbau/Photos/tr:w-500,h-500/WhatsApp%20Image%202026-05-05%20at%2012.02.24%20AM.jpeg"
+                alt="Über uns"
+              />
               <div className="w-28 lg:w-40 xl:w-52 h-28 lg:h-40 xl:h-52 bg-primary absolute -bottom-3 md:-bottom-5 -right-3 md:-right-5 z-10"></div>
             </div>
           </div>
@@ -34,26 +48,62 @@ const About = () => {
       <section className="px-4 md:px-8 bg-neutral-100 py-10 md:py-14 lg:py-20">
         <div className="max-w-screen-web mx-auto flex flex-col-reverse lg:flex-row items-center gap-6 lg:gap-x-14">
           <div className="w-full lg:w-1/2 max-w-[250px] md:max-w-sm lg:max-w-md relative">
-            <div className="absolute w-48 h-80 -bottom-3 -left-3 bg-neutral-500"></div>
-            <img src="../images/pflasterbau1.webp" className="relative" alt="Warum Sie uns wählen sollten" />
+            <img
+              src="https://ik.imagekit.io/inowebagentur/Berisha%20Pflasterbau/Photos/tr:w-500,h-500/WhatsApp%20Image%202026-05-05%20at%2012.02.25%20AM%20(4).jpeg"
+              className="relative"
+              alt="Warum Sie uns wählen sollten"
+            />
+            
           </div>
           <div className="grow w-full lg:w-1/2">
-            <h2 className="h2 text-center lg:text-left">Warum Sie uns wählen sollten
+            <h2 className="h2 text-center lg:text-left">
+              Warum Sie uns wählen sollten
             </h2>
             <Separator className="w-1/3 max-w-[60px] h-1 border-none bg-primary mt-3 mb-4 mx-auto lg:mx-0" />
-            <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left">Wir bei BS Pflaster- & Tiefbau zeichnen uns durch präzise Handwerkskunst, erstklassige Qualität und umfassende Erfahrung im Pflasterbau & Tiefbau aus. Unsere Hingabe für exzellente Arbeit spiegelt sich in jedem Projekt wieder.</p>
-            <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left mt-4">Wir verstehen die Einzigartigkeiten jeder Region und nutzen dieses Wissen, um Ihr Projekt zu etwas Besonderem zu machen. Entscheiden Sie sich für BS Pflasterbau, wenn Sie unkomplizierte Handwerkskunst, Fachwissen und beeindruckende Ergebnisse wünschen - eine Partnerschaft, auf die Sie zählen können.</p>
+            <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left">
+              Wir bei BS Pflaster- & Tiefbau zeichnen uns durch präzise
+              Handwerkskunst, erstklassige Qualität und umfassende Erfahrung im
+              Pflasterbau & Tiefbau aus. Unsere Hingabe für exzellente Arbeit
+              spiegelt sich in jedem Projekt wieder.
+            </p>
+            <p className="text-[17px] md:text-lg text-black/80 text-center lg:text-left mt-4">
+              Wir verstehen die Einzigartigkeiten jeder Region und nutzen dieses
+              Wissen, um Ihr Projekt zu etwas Besonderem zu machen. Entscheiden
+              Sie sich für BS Pflasterbau, wenn Sie unkomplizierte
+              Handwerkskunst, Fachwissen und beeindruckende Ergebnisse wünschen
+              - eine Partnerschaft, auf die Sie zählen können.
+            </p>
             <div className="flex justify-center lg:justify-start">
               <ul className="inline-grid grid-cols-2 mt-4 gap-x-4 gap-ynpm-2">
-                {["Erfahrung", "Zuverlässigkeit", "Kundenservice", "Qualität", "Kreativität", "Effizienz"].map(quality => (
-                  <li key={quality} className="flex items-center gap-x-2 text-[17px] md:text-lg text-black/80">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-primary">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                {[
+                  "Erfahrung",
+                  "Zuverlässigkeit",
+                  "Kundenservice",
+                  "Qualität",
+                  "Kreativität",
+                  "Effizienz",
+                ].map((quality) => (
+                  <li
+                    key={quality}
+                    className="flex items-center gap-x-2 text-[17px] md:text-lg text-black/80"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6 text-primary"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="m4.5 12.75 6 6 9-13.5"
+                      />
                     </svg>
                     {quality}
                   </li>
                 ))}
-
               </ul>
             </div>
           </div>

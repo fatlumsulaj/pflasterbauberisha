@@ -15,7 +15,7 @@ const Results = () => {
             </svg>
           </div>
           <div>
-            <h3 className="font-extrabold text-3xl text-center lg:text-left">20</h3>
+            <h3 className="font-extrabold text-3xl text-center lg:text-left">+20</h3>
             <p className="text-center lg:text-left">Jahre Erfahrung</p>
           </div>
         </div>
@@ -24,7 +24,7 @@ const Results = () => {
             <HardHat className="min-w-8 min-h-8 w-8 h-8 text-white" />
           </div>
           <div>
-            <h3 className="font-extrabold text-3xl text-center lg:text-left">1000</h3>
+            <h3 className="font-extrabold text-3xl text-center lg:text-left">+1000</h3>
             <p className="text-center lg:text-left">Projekte</p>
           </div>
         </div>
